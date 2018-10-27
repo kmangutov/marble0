@@ -1,0 +1,5615 @@
+var items = [  
+    {  
+        "title":"Bar III Men's Slim-Fit Overcoat, Created for Macy's",
+        "prices":[  
+            69.99,
+            350.0
+        ],
+        "discount":0.8,
+        "url":"https://www.macys.com/shop/product/bar-iii-mens-slim-fit-overcoat-created-for-macys?ID=5010928&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D114",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/8843409_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Palm-Print Hooded Windbreaker",
+        "prices":[  
+            66.96,
+            298.0
+        ],
+        "discount":0.78,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-palm-print-hooded-windbreaker?ID=5735649&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D99",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9426389_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Heathered Shirt-Jacket",
+        "prices":[  
+            39.96,
+            178.0
+        ],
+        "discount":0.78,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-heathered-shirt-jacket?ID=6211079&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D96",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9743413_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Seersucker Track Jacket",
+        "prices":[  
+            44.96,
+            198.0
+        ],
+        "discount":0.77,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-seersucker-track-jacket?ID=6422299&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D92",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9689224_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Perry Ellis Open Bottom Leather Jacket with Lining",
+        "prices":[  
+            149.99,
+            595.0
+        ],
+        "discount":0.75,
+        "url":"https://www.macys.com/shop/product/perry-ellis-open-bottom-leather-jacket-with-lining?ID=2361584&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D49",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/3205830_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Durham Classic-Fit Raincoat",
+        "prices":[  
+            88.99,
+            350.0
+        ],
+        "discount":0.75,
+        "url":"https://www.macys.com/shop/product/london-fog-durham-classic-fit-raincoat?ID=987944&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D34",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/3520064_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Maurizio Peacoat",
+        "prices":[  
+            89.99,
+            350.0
+        ],
+        "discount":0.74,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-maurizio-peacoat?ID=2891319&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D67",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/3832309_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"MUDDYFOX Men's Colorblocked Full-Zip Cycle Jacket from Eastern Mountain Sports",
+        "prices":[  
+            22.4,
+            77.99
+        ],
+        "discount":0.71,
+        "url":"https://www.macys.com/shop/product/muddyfox-mens-colorblocked-full-zip-cycle-jacket-from-eastern-mountain-sports?ID=6455411&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D74",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9716632_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Leather Trucker Jacket",
+        "prices":[  
+            199.99,
+            595.0,
+            695.0
+        ],
+        "discount":0.71,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-leather-trucker-jacket?ID=4911399&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D65",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8706155_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Jaywalker Men's Raglan Varsity Jacket",
+        "prices":[  
+            22.16,
+            74.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/jaywalker-mens-raglan-varsity-jacket?ID=5669516&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D90",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9562521_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Jeans Men's Denim Logo Jacket",
+        "prices":[  
+            44.36,
+            148.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/calvin-klein-jeans-mens-denim-logo-jacket?ID=6545498&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D87",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9874587_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Printed Logo Windbreaker Jacket",
+        "prices":[  
+            34.46,
+            115.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/dkny-mens-printed-logo-windbreaker-jacket?ID=5940201&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D76",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9774610_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Jeans Men's Harrington Full-Zip Jacket",
+        "prices":[  
+            44.36,
+            148.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/calvin-klein-jeans-mens-harrington-full-zip-jacket?ID=6532154&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D74",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9874542_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Floral Camo-Print Hooded Bomber Jacket",
+        "prices":[  
+            89.36,
+            298.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-floral-camo-print-hooded-bomber-jacket?ID=5918202&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D49",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9627325_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Buffalo David Bitton Men's Two-Tone Denim Vest",
+        "prices":[  
+            26.66,
+            89.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/buffalo-david-bitton-mens-two-tone-denim-vest?ID=6076883&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D7",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9615780_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Kenneth Cole Quarter-Zip Anorak",
+        "prices":[  
+            35.66,
+            119.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/kenneth-cole-quarter-zip-anorak?ID=5769419&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D1",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9326232_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Seersucker Track Jacket",
+        "prices":[  
+            59.36,
+            198.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-seersucker-track-jacket?ID=7046468&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D79",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9689230_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Ryan Seacrest Distinction\u2122 Men's Modern-Fit Black/White Plaid Overcoat, Created for Macy's",
+        "prices":[  
+            119.99,
+            395.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/ryan-seacrest-distinction-mens-modern-fit-black-white-plaid-overcoat-created-for-macys?ID=5010662&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D22",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/8787443_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tallia Men's Big & Tall Slim-Fit Gray Windowpane with Velvet Trim Overcoat",
+        "prices":[  
+            128.99,
+            425.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/tallia-mens-big-tall-slim-fit-gray-windowpane-with-velvet-trim-overcoat?ID=6351726&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D14",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10132544_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Kenneth Cole New York Raven Slim-Fit Raincoat",
+        "prices":[  
+            119.99,
+            395.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/kenneth-cole-new-york-raven-slim-fit-raincoat?ID=2243051&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D120",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/3118822_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Classic/Regular-Fit Double-Breasted Topcoat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-classic-regular-fit-double-breasted-topcoat?ID=6612015&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D100",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10211935_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tallia Men's Big & Tall Slim-Fit Herringbone Overcoat",
+        "prices":[  
+            128.99,
+            425.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/tallia-mens-big-tall-slim-fit-herringbone-overcoat?ID=6424742&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D69",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10205789_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Monarch X-Fit Slim-Fit Overcoat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-monarch-x-fit-slim-fit-overcoat?ID=6450151&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D20",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10051145_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lauren Ralph Lauren Men's Lowell Classic-Fit Raincoat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/lauren-ralph-lauren-mens-lowell-classic-fit-raincoat?ID=5118660&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D14",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9031519_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Classic/Regular Fit Black & White Glen Plaid Top Coat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-classic-regular-fit-black-white-glen-plaid-top-coat?ID=6612066&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D3",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10048108_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lauren Ralph Lauren Men's Luke Classic-Fit Black/White Glen Plaid Peacoat",
+        "prices":[  
+            119.99,
+            395.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/lauren-ralph-lauren-mens-luke-classic-fit-black-white-glen-plaid-peacoat?ID=6484871&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D2",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10047963_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Milton Slim-Fit Overcoat",
+        "prices":[  
+            119.99,
+            395.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-milton-slim-fit-overcoat?ID=5011054&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D1",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/8859776_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Slim-Fit Twill-to-Plaid Overcoat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-slim-fit-twill-to-plaid-overcoat?ID=2954369&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D106",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/3919439_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Minneapolis Wool-Blend  Slim-Fit Overcoat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-minneapolis-wool-blend-slim-fit-overcoat?ID=5023540&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D88",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/8894693_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Collin Slim Fit Rain Coat",
+        "prices":[  
+            119.99,
+            350.0,
+            395.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-collin-slim-fit-rain-coat?ID=5765174&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D78",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/3409018_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lauren Ralph Lauren Men's Lefferts Classic-Fit Faux-Shearling Overcoat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/lauren-ralph-lauren-mens-lefferts-classic-fit-faux-shearling-overcoat?ID=6449195&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D44",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10096365_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lauren Ralph Lauren Jake Solid Wool-Blend Overcoat",
+        "prices":[  
+            119.99,
+            350.0,
+            395.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/lauren-ralph-lauren-jake-solid-wool-blend-overcoat?ID=879635&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D42",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/3875108_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Marquez Slim-Fit Single-Breasted Raincoat",
+        "prices":[  
+            119.99,
+            395.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-marquez-slim-fit-single-breasted-raincoat?ID=5229485&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D37",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/8949377_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Water-Resistant Overcoat with Zip-Out Liner",
+        "prices":[  
+            119.99,
+            395.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-water-resistant-overcoat-with-zip-out-liner?ID=2951872&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D35",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/3912728_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lauren Ralph Lauren Men's Edmond Classic-Fit Belted Trench Raincoat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/lauren-ralph-lauren-mens-edmond-classic-fit-belted-trench-raincoat?ID=5118663&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D29",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9031574_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Water-Resistant Bib Overcoat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-water-resistant-bib-overcoat?ID=2954194&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D24",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/3913126_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Madison Wool-Blend Modern-Fit Overcoat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-madison-wool-blend-modern-fit-overcoat?ID=1048510&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D19",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10055543_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lauren Ralph Lauren Labrada Double-Breasted Wool-Blend Peacoat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/lauren-ralph-lauren-labrada-double-breasted-wool-blend-peacoat?ID=879642&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D9",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/3510003_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lauren Ralph Lauren Men's Luther Wool-Blend Top Coat",
+        "prices":[  
+            148.99,
+            495.0
+        ],
+        "discount":0.7,
+        "url":"https://www.macys.com/shop/product/lauren-ralph-lauren-mens-luther-wool-blend-top-coat?ID=2878265&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D8",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/3794649_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Smooth Leather Car Coat",
+        "prices":[  
+            199.99,
+            650.0
+        ],
+        "discount":0.69,
+        "url":"https://www.macys.com/shop/product/cole-haan-smooth-leather-car-coat?ID=2452013&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D46",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/2249982_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tallia Men's Slim-Fit Black/White Plaid Overcoat with Velvet Trim",
+        "prices":[  
+            128.99,
+            395.0
+        ],
+        "discount":0.67,
+        "url":"https://www.macys.com/shop/product/tallia-mens-slim-fit-black-white-plaid-overcoat-with-velvet-trim?ID=6351729&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D7",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10206884_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tallia Men's Slim-Fit Gray Windowpane with Velvet Trim Overcoat",
+        "prices":[  
+            128.99,
+            395.0
+        ],
+        "discount":0.67,
+        "url":"https://www.macys.com/shop/product/tallia-mens-slim-fit-gray-windowpane-with-velvet-trim-overcoat?ID=6351728&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D119",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10132544_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tallia Men's Slim-Fit Herringbone Overcoat",
+        "prices":[  
+            128.99,
+            395.0
+        ],
+        "discount":0.67,
+        "url":"https://www.macys.com/shop/product/tallia-mens-slim-fit-herringbone-overcoat?ID=6424741&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D67",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10205788_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tallia Men's Slim-Fit Brown Faux Suede Overcoat",
+        "prices":[  
+            128.99,
+            395.0
+        ],
+        "discount":0.67,
+        "url":"https://www.macys.com/shop/product/tallia-mens-slim-fit-brown-faux-suede-overcoat?ID=6351725&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D51",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10206500_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tallia Men's Slim-Fit Solid Overcoat",
+        "prices":[  
+            128.99,
+            395.0
+        ],
+        "discount":0.67,
+        "url":"https://www.macys.com/shop/product/tallia-mens-slim-fit-solid-overcoat?ID=6351733&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D38",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10131904_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tallia Men's Slim-Fit Navy Solid Peacoat",
+        "prices":[  
+            128.99,
+            395.0
+        ],
+        "discount":0.67,
+        "url":"https://www.macys.com/shop/product/tallia-mens-slim-fit-navy-solid-peacoat?ID=6351731&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D70",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10216742_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Quilted Vest",
+        "prices":[  
+            49.99,
+            150.0
+        ],
+        "discount":0.67,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-quilted-vest?ID=6549368&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D64",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10019392_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Iconic Belted Trench Raincoat",
+        "prices":[  
+            148.99,
+            450.0
+        ],
+        "discount":0.67,
+        "url":"https://www.macys.com/shop/product/london-fog-iconic-belted-trench-raincoat?ID=1048412&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D17",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/1742427_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Perforated Bomber Jacket",
+        "prices":[  
+            67.93,
+            198.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-perforated-bomber-jacket?ID=5899149&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D109",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9775847_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Ombr\u00e9 Gingham Bomber Jacket",
+        "prices":[  
+            170.13,
+            498.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-ombre-gingham-bomber-jacket?ID=5899150&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D73",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9820490_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Contrast-Collar Bomber Jacket",
+        "prices":[  
+            43.93,
+            128.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-contrast-collar-bomber-jacket?ID=6642466&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D31",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9990092_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Leather Bomber Jacket",
+        "prices":[  
+            204.93,
+            598.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-leather-bomber-jacket?ID=6211070&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D107",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9743606_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Ribbed Jacket",
+        "prices":[  
+            50.93,
+            88.8,
+            148.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-ribbed-jacket?ID=6642441&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D119",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9987759_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Leather Bomber Jacket",
+        "prices":[  
+            204.93,
+            598.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-leather-bomber-jacket?ID=6211066&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D97",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9743548_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Mix-Media Varsity Jacket",
+        "prices":[  
+            136.03,
+            398.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-mix-media-varsity-jacket?ID=6642442&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D36",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9987774_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Kenneth Cole New York Men's Retz Water Repellent Raincoat",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/kenneth-cole-new-york-mens-retz-water-repellent-raincoat?ID=3079648&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D105",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/3951188_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Kenneth Cole New York Revere Raincoat",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/kenneth-cole-new-york-revere-raincoat?ID=879713&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D72",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/3427430_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Kenneth Cole New York Slim-Fit Reino Water Repellent Raincoat",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/kenneth-cole-new-york-slim-fit-reino-water-repellent-raincoat?ID=2243050&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D68",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/3089730_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Logo Graphic Hooded Soft-Shell Jacket, Created for Macy's",
+        "prices":[  
+            59.99,
+            175.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-logo-graphic-hooded-soft-shell-jacket-created-for-macys?ID=6542706&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D22",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9917851_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Melliot Single-Breasted Raincoat",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/calvin-klein-melliot-single-breasted-raincoat?ID=2510610&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D17",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/3811957_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"MICHAEL Michael Kors Men's James Dean Leather Jacket, Created for Macy's",
+        "prices":[  
+            199.99,
+            595.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/michael-michael-kors-mens-james-dean-leather-jacket-created-for-macys?ID=6660721&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D99",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10008428_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Smooth Leather Jacket, Created for Macy's",
+        "prices":[  
+            199.99,
+            595.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-smooth-leather-jacket-created-for-macys?ID=6729774&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D84",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10168290_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Kenneth Cole New York Men's Earle Slim-Fit Overcoat",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/kenneth-cole-new-york-mens-earle-slim-fit-overcoat?ID=5011080&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D75",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/8862323_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Coventry Wool-Blend Overcoat",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/london-fog-coventry-wool-blend-overcoat?ID=1048503&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D73",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/3520061_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Coleman Wool-Blend Overcoat",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/calvin-klein-coleman-wool-blend-overcoat?ID=879627&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D60",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/3877300_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Slim Fit Black Solid Raincoat",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-slim-fit-black-solid-raincoat?ID=4446987&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D51",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/8280539_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"MICHAEL Michael Kors Men's Perforated Leather Moto Jacket, Created for Macy's",
+        "prices":[  
+            199.99,
+            595.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/michael-michael-kors-mens-perforated-leather-moto-jacket-created-for-macys?ID=6549343&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D50",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10008447_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Leather Moto Jacket, Created for Macy's",
+        "prices":[  
+            199.99,
+            595.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-leather-moto-jacket-created-for-macys?ID=4864257&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D32",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/8668501_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lauren Ralph Lauren Edgar Classic Fit Raincoat with Removable Lining",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/lauren-ralph-lauren-edgar-classic-fit-raincoat-with-removable-lining?ID=879705&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D30",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/3813753_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Full-Zip Leather Bomber Jacket",
+        "prices":[  
+            199.99,
+            595.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-full-zip-leather-bomber-jacket?ID=4591153&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D28",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/8417961_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lauren Ralph Lauren Men's Stanza Classic-Fit Raincoat",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/lauren-ralph-lauren-mens-stanza-classic-fit-raincoat?ID=6194711&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D26",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9532961_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Leather Bomber Jacket",
+        "prices":[  
+            199.99,
+            595.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-leather-bomber-jacket?ID=4911878&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D25",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/8706259_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Signature Wool-Blend Overcoat",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/london-fog-signature-wool-blend-overcoat?ID=987859&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D16",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/3494542_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lauren Ralph Lauren Luke Solid Wool-Blend Peacoat",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/lauren-ralph-lauren-luke-solid-wool-blend-peacoat?ID=2257940&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D14",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/3891452_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Kenneth Cole Reaction Raburn Wool-Blend Over Coat Slim-Fit",
+        "prices":[  
+            119.99,
+            350.0
+        ],
+        "discount":0.66,
+        "url":"https://www.macys.com/shop/product/kenneth-cole-reaction-raburn-wool-blend-over-coat-slim-fit?ID=879646&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D5",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/3511392_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Element Men's Alder Hooded Full-Zip Windbreaker",
+        "prices":[  
+            20.93,
+            59.95
+        ],
+        "discount":0.65,
+        "url":"https://www.macys.com/shop/product/element-mens-alder-hooded-full-zip-windbreaker?ID=6302121&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D82",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9886998_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"A|X Armani Exchange Men's Water Resistant Geometric Hooded Windbreaker",
+        "prices":[  
+            59.43,
+            170.0
+        ],
+        "discount":0.65,
+        "url":"https://www.macys.com/shop/product/ax-armani-exchange-mens-water-resistant-geometric-hooded-windbreaker?ID=6096089&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D28",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9645288_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's News Jacket with Faux Leather Trim, Created for Macy's",
+        "prices":[  
+            27.73,
+            47.7,
+            79.5
+        ],
+        "discount":0.65,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-news-jacket-with-faux-leather-trim-created-for-macys?ID=6355610&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D85",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9878616_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Striped-Sleeve Track Jacket, Created for Macy's",
+        "prices":[  
+            26.23,
+            45.0,
+            75.0
+        ],
+        "discount":0.65,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-striped-sleeve-track-jacket-created-for-macys?ID=5354152&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D71",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9874682_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Wrangler Men's Western Jean Jacket",
+        "prices":[  
+            27.23,
+            78.0
+        ],
+        "discount":0.65,
+        "url":"https://www.macys.com/shop/product/wrangler-mens-western-jean-jacket?ID=7156677&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D110",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/8091308_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitters Men's Packable Down Quilted Vest",
+        "prices":[  
+            34.99,
+            100.0
+        ],
+        "discount":0.65,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitters-mens-packable-down-quilted-vest?ID=2361569&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D95",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9184548_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitter Men's Packable Down Puffer Vest",
+        "prices":[  
+            34.99,
+            100.0
+        ],
+        "discount":0.65,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitter-mens-packable-down-puffer-vest?ID=2361562&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D69",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10200381_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Soft Shell Hooded Trucker Jacket with Sherpa Fleece Lining",
+        "prices":[  
+            79.99,
+            225.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/levis-mens-soft-shell-hooded-trucker-jacket-with-sherpa-fleece-lining?ID=6542096&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D58",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9901693_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Faux-Leather Aviator Bomber Jacket with Fleece Lining",
+        "prices":[  
+            79.99,
+            225.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/levis-mens-faux-leather-aviator-bomber-jacket-with-fleece-lining?ID=6615765&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D98",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9901818_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitter Men's Packable Down Puffer Jacket, Created for Macy's",
+        "prices":[  
+            44.99,
+            125.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitter-mens-packable-down-puffer-jacket-created-for-macys?ID=2873076&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D54",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/3757987_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Men's Arietta Diamond Quilted Field Coat, Created for Macy's",
+        "prices":[  
+            69.99,
+            195.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/london-fog-mens-arietta-diamond-quilted-field-coat-created-for-macys?ID=6632690&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D21",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10172417_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Faux Leather Bomber Jacket",
+        "prices":[  
+            69.99,
+            195.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-faux-leather-bomber-jacket?ID=4862281&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D9",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/8670692_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Cotton Zip-Front Jacket",
+        "prices":[  
+            79.99,
+            225.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/levis-mens-cotton-zip-front-jacket?ID=6543175&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D102",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9900842_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Two Pocket Hooded Trucker Jacket",
+        "prices":[  
+            79.99,
+            225.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/levis-mens-two-pocket-hooded-trucker-jacket?ID=4864242&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D65",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9949366_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"GUESS Men's Bomber Jacket with Removable Hooded Inset",
+        "prices":[  
+            69.99,
+            195.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/guess-mens-bomber-jacket-with-removable-hooded-inset?ID=4890575&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D57",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/8864220_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Color Block Hooded Ski Coat, Created for Macy's",
+        "prices":[  
+            69.99,
+            195.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-color-block-hooded-ski-coat-created-for-macys?ID=6619838&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D45",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9917237_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Ripstop Full-Zip Jacket with Fleece Bib",
+        "prices":[  
+            89.99,
+            250.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-ripstop-full-zip-jacket-with-fleece-bib?ID=6542157&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D40",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9828729_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Soft-Shell Hooded Bomber Jacket with Bib",
+        "prices":[  
+            69.99,
+            195.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-soft-shell-hooded-bomber-jacket-with-bib?ID=2339112&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D36",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9917442_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Packable Down Hooded Puffer Jacket",
+        "prices":[  
+            79.99,
+            225.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-packable-down-hooded-puffer-jacket?ID=4888712&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D21",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9854036_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Kenneth Cole Men's Double Breasted Wool Blend Peacoat with Bib",
+        "prices":[  
+            89.99,
+            250.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/kenneth-cole-mens-double-breasted-wool-blend-peacoat-with-bib?ID=6632627&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D15",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9928014_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Down Quilted Packable Logo Jacket",
+        "prices":[  
+            69.99,
+            195.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-down-quilted-packable-logo-jacket?ID=4864324&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D13",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9896017_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"GUESS Men's Hooded Puffer Coat",
+        "prices":[  
+            79.99,
+            225.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/guess-mens-hooded-puffer-coat?ID=4964022&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D12",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/8864156_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Full-Zip Puffer Coat, Created for Macy's",
+        "prices":[  
+            79.99,
+            225.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-full-zip-puffer-coat-created-for-macys?ID=6559466&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D11",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9829012_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Down Packable Puffer Jacket, Created for Macy's",
+        "prices":[  
+            79.99,
+            225.0
+        ],
+        "discount":0.64,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-down-packable-puffer-jacket-created-for-macys?ID=2361618&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D6",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9964697_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Alfani Slim Pique Bomber Track Jacket, Created for Macy's",
+        "prices":[  
+            27.99,
+            75.0
+        ],
+        "discount":0.63,
+        "url":"https://www.macys.com/shop/product/alfani-slim-pique-bomber-track-jacket-created-for-macys?ID=1871165&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D94",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/8819849_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Men's Big & Tall Micro Hipster Jacket",
+        "prices":[  
+            63.99,
+            159.92,
+            175.0
+        ],
+        "discount":0.63,
+        "url":"https://www.macys.com/shop/product/london-fog-mens-big-tall-micro-hipster-jacket?ID=2602193&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D34",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10515715_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Weatherproof Jacket, Microfiber Bomber Jacket",
+        "prices":[  
+            49.99,
+            100.0,
+            135.0
+        ],
+        "discount":0.63,
+        "url":"https://www.macys.com/shop/product/weatherproof-jacket-microfiber-bomber-jacket?ID=2317000&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D114",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9732449_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Alfani Men's Textured Zip-Front Jacket, Created for Macy's",
+        "prices":[  
+            27.99,
+            75.0
+        ],
+        "discount":0.63,
+        "url":"https://www.macys.com/shop/product/alfani-mens-textured-zip-front-jacket-created-for-macys?ID=3706218&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D108",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/8101304_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Litchfield Microfiber Jacket",
+        "prices":[  
+            59.99,
+            160.0
+        ],
+        "discount":0.63,
+        "url":"https://www.macys.com/shop/product/london-fog-litchfield-microfiber-jacket?ID=1935075&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D100",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10515715_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Alfani Reyes Mixed-Media Jacket, Created for Macy's",
+        "prices":[  
+            27.99,
+            75.0
+        ],
+        "discount":0.63,
+        "url":"https://www.macys.com/shop/product/alfani-reyes-mixed-media-jacket-created-for-macys?ID=1781020&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D86",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/2446006_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Alfani Men's Colorblocked Full-Zip Jacket, Created for Macy's",
+        "prices":[  
+            27.99,
+            75.0
+        ],
+        "discount":0.63,
+        "url":"https://www.macys.com/shop/product/alfani-mens-colorblocked-full-zip-jacket-created-for-macys?ID=5203247&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D48",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10515075_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Big & Tall Hooded Bib Snorkel Coat, Created for Macy's",
+        "prices":[  
+            159.99,
+            400.0,
+            425.0
+        ],
+        "discount":0.62,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-big-tall-hooded-bib-snorkel-coat-created-for-macys?ID=2887968&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D42",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10516609_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Slim-Fit Darcy Graphite Overcoat",
+        "prices":[  
+            148.99,
+            395.0
+        ],
+        "discount":0.62,
+        "url":"https://www.macys.com/shop/product/dkny-mens-slim-fit-darcy-graphite-overcoat?ID=6450113&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D90",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10055203_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitter Men's Packable Chevron Parka",
+        "prices":[  
+            44.99,
+            115.0
+        ],
+        "discount":0.61,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitter-mens-packable-chevron-parka?ID=6853508&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D54",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8671385_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Polo Ralph Lauren Men's CP-93 Striped Hoodie",
+        "prices":[  
+            79.13,
+            198.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/polo-ralph-lauren-mens-cp-93-striped-hoodie?ID=5607630&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D10%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D78",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9618691_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Weatherproof Vintage Men's Aztec Wool Jacket",
+        "prices":[  
+            70.0,
+            175.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/weatherproof-vintage-mens-aztec-wool-jacket?ID=6702598&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D10%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D74",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10470027_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Under Armour Men's Storm Out & Back Printed Jacket",
+        "prices":[  
+            33.93,
+            85.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/under-armour-mens-storm-out-back-printed-jacket?ID=4860250&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D113",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9295784_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Kenneth Cole Men's Hooded Windbreaker Jacket",
+        "prices":[  
+            47.53,
+            119.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/kenneth-cole-mens-hooded-windbreaker-jacket?ID=5745950&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D87",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9535913_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tallia Orange Men's Modern-Fit Aqua Tropical-Print Bomber Jacket",
+        "prices":[  
+            99.93,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tallia-orange-mens-modern-fit-aqua-tropical-print-bomber-jacket?ID=5659345&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D41",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9263551_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tallia Orange Men's Modern-Fit Navy Tonal Floral-Print Bomber Jacket",
+        "prices":[  
+            99.93,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tallia-orange-mens-modern-fit-navy-tonal-floral-print-bomber-jacket?ID=5659342&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D103",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9386810_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Polo Ralph Lauren Men's Print Utility Jacket",
+        "prices":[  
+            197.93,
+            495.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/polo-ralph-lauren-mens-print-utility-jacket?ID=5607633&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D64",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9674196_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"NikeCourt Men's Rafa Dri-FIT Tennis Jacket",
+        "prices":[  
+            59.93,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nikecourt-mens-rafa-dri-fit-tennis-jacket?ID=4888882&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D40",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9348411_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nike Men's RF Tennis Jacket",
+        "prices":[  
+            59.93,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nike-mens-rf-tennis-jacket?ID=4888864&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D19",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9456499_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Ripped Denim Bomber Jacket",
+        "prices":[  
+            59.99,
+            149.5
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/levis-mens-ripped-denim-bomber-jacket?ID=6198878&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D11",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9557460_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Polo Ralph Lauren Men's Big & Tall Collegiate Crest Fleece Jacket",
+        "prices":[  
+            89.93,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/polo-ralph-lauren-mens-big-tall-collegiate-crest-fleece-jacket?ID=5617844&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D86",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9818425_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"32 Degrees Men's Water-Resistant Down Vest",
+        "prices":[  
+            29.93,
+            75.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/32-degrees-mens-water-resistant-down-vest?ID=5747045&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D82",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9708708_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Weatherproof Vintage Men's Corduroy Fleece-Lined Trucker Jacket, Created for Macy's",
+        "prices":[  
+            40.0,
+            100.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/weatherproof-vintage-mens-corduroy-fleece-lined-trucker-jacket-created-for-macys?ID=6702608&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D38",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10327026_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Weatherproof Vintage Men's Full-Zip Hooded Jacket, Created for Macy's",
+        "prices":[  
+            31.8,
+            79.5
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/weatherproof-vintage-mens-full-zip-hooded-jacket-created-for-macys?ID=5403627&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D15",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9272335_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"32 Degrees Men's Storm Tech Full-Zip Hooded Rain Jacket",
+        "prices":[  
+            39.53,
+            99.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/32-degrees-mens-storm-tech-full-zip-hooded-rain-jacket?ID=5757636&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D60",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9586813_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"32 Degrees Men's Full-Zip Fleece Tech Vest",
+        "prices":[  
+            19.73,
+            49.5
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/32-degrees-mens-full-zip-fleece-tech-vest?ID=5724904&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D39",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9308903_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"32 Degrees Men's Packable Bomber Jacket",
+        "prices":[  
+            39.93,
+            100.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/32-degrees-mens-packable-bomber-jacket?ID=7045110&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D37",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9586762_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Alfani Men's Textured Bomber Jacket, Created for Macy's",
+        "prices":[  
+            29.93,
+            75.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/alfani-mens-textured-bomber-jacket-created-for-macys?ID=6314740&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D26",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9870763_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Polo Ralph Lauren Men's Collegiate Crest Fleece Jacket",
+        "prices":[  
+            79.13,
+            198.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/polo-ralph-lauren-mens-collegiate-crest-fleece-jacket?ID=5596499&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D20",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9753833_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Alfani Men's Colorblocked Full-Zip Jacket, Created for Macy's",
+        "prices":[  
+            29.93,
+            75.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/alfani-mens-colorblocked-full-zip-jacket-created-for-macys?ID=7358587&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D100",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9826326_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Big & Tall Full-Zip Puffer Coat, Created for Macy's",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-big-tall-full-zip-puffer-coat-created-for-macys?ID=6976139&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D49",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9829010_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Performance Hoody Coat",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-performance-hoody-coat?ID=4986541&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D40",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/8921144_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Big & Tall Faux-Leather Jacket, Created for Macy's",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-big-tall-faux-leather-jacket-created-for-macys?ID=6946453&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D37",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9949786_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Big & Tall Faux-Leather Varsity Jacket, Created for Macy's",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-big-tall-faux-leather-varsity-jacket-created-for-macys?ID=6911955&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D35",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9949727_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Big & Tall Four-Pocket Filled Performance Jacket, Created for Macy's",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-big-tall-four-pocket-filled-performance-jacket-created-for-macys?ID=6911927&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D34",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9918483_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Big & Tall Colorblocked Logo-Print Raincoat",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-big-tall-colorblocked-logo-print-raincoat?ID=5764033&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D30",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9397298_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Big & Tall Melton Peacoat with Scarf",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-big-tall-melton-peacoat-with-scarf?ID=2479254&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D20",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/2927532_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Big & Tall Classic-Fit 4-Way Stretch Soft-Shell Jacket",
+        "prices":[  
+            79.99,
+            200.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-big-tall-classic-fit-4-way-stretch-soft-shell-jacket?ID=6976125&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D19",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9828426_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Izod Genuine Leather Bomber Jacket",
+        "prices":[  
+            197.99,
+            495.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/izod-genuine-leather-bomber-jacket?ID=1528495&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D18",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/2226325_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Weatherproof Men's Perforated Full-Zip Moto Jacket",
+        "prices":[  
+            39.99,
+            100.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/weatherproof-mens-perforated-full-zip-moto-jacket?ID=5759867&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D13",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9497236_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"HFX Men's Hooded Ski Jacket",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hfx-mens-hooded-ski-jacket?ID=5014800&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D9",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/8852766_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Full-Zip Hooded Wool Jacket, Created for Macy's",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-full-zip-hooded-wool-jacket-created-for-macys?ID=6680146&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D2",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9917922_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Big and Tall Logo-Print Full-Zip Hooded Windslicker",
+        "prices":[  
+            69.99,
+            175.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-big-tall-logo-print-full-zip-hooded-windslicker?ID=6564240&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D1",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9675223_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"32 Degrees Men's Packable Jacket, A Macy's Exclusive",
+        "prices":[  
+            69.99,
+            175.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/32-degrees-mens-packable-jacket-a-macys-exclusive?ID=4866969&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D114",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/8670473_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Big & Tall All Man's Parka with Detachable Hood, Created for Macy's",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-big-tall-all-mans-parka-with-detachable-hood-created-for-macys?ID=6887008&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D106",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9915822_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Quilted Zip-Front Jacket",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-quilted-zip-front-jacket?ID=4912061&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D103",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8766005_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"HFX Men's Colorblocked Hooded Ski Jacket",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hfx-mens-colorblocked-hooded-ski-jacket?ID=4939268&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D101",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/8734679_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Weatherproof Microsuede Baseball Jacket, Created for Macy's",
+        "prices":[  
+            49.99,
+            125.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/weatherproof-microsuede-baseball-jacket-created-for-macys?ID=5770310&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D100",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9497221_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Halifax Men's Ski Jacket",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/halifax-mens-ski-jacket?ID=4939415&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D98",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9233204_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Metallic Windbreaker Coat",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-metallic-windbreaker-coat?ID=6614842&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D96",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9924746_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Metallic Windbreaker",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-metallic-windbreaker?ID=6702089&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D88",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9925286_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Coat with Fleece Collar",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-coat-with-fleece-collar?ID=6731080&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D87",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10168831_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"MICHAEL Michael Kors Men's Faux-Leather Sherpa Fleece-Collar Bomber Jacket",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-michael-kors-mens-faux-leather-sherpa-fleece-collar-bomber-jacket?ID=6959880&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D83",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10007591_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"HFX Men's Faux-Fur-Trimmed Jacket",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hfx-mens-faux-fur-trimmed-jacket?ID=4939413&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D82",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/8985422_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Big & Tall Full-Zip Stand-Collar Bomber Jacket",
+        "prices":[  
+            69.99,
+            175.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-big-tall-full-zip-stand-collar-bomber-jacket?ID=5763722&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D81",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9397287_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lucky Brand Men's Gas Station Jacket",
+        "prices":[  
+            49.99,
+            125.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/lucky-brand-mens-gas-station-jacket?ID=6047193&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D79",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9731405_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Big & Tall Hooded Rain Slicker",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-big-tall-hooded-rain-slicker?ID=5764004&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D77",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9397351_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"HFX Men's Faux-Fur Trimmed Hooded Parka",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hfx-mens-faux-fur-trimmed-hooded-parka?ID=4939519&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D76",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8734675_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Men's Beekman Reversible Stretch Bomber Jacket, Created for Macy's",
+        "prices":[  
+            77.99,
+            195.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/london-fog-mens-beekman-reversible-stretch-bomber-jacket-created-for-macys?ID=6632809&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D75",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10172570_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitter Men's Cavell Diamond Quilted Filed Coat",
+        "prices":[  
+            77.99,
+            195.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitter-mens-cavell-diamond-quilted-filed-coat?ID=6834556&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D71",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10073204_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Puffer Jacket with Fleece Lining",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-puffer-jacket-with-fleece-lining?ID=6661596&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D68",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10215632_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Faux-Leather Hooded Jacket",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/levis-mens-faux-leather-hooded-jacket?ID=6559689&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D66",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9902085_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Faux-Leather Jacket",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-faux-leather-jacket?ID=6656844&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D64",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10389336_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Faux-Suede Moto Jacket",
+        "prices":[  
+            125.99,
+            315.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-faux-suede-moto-jacket?ID=6046524&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D61",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9585318_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Perry Ellis Men's Quilted Microsuede Jacket",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/perry-ellis-mens-quilted-microsuede-jacket?ID=6632885&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D59",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9874597_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Big & Tall Colorblocked Logo-Print Windslicker Jacket",
+        "prices":[  
+            39.99,
+            100.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-big-tall-colorblocked-logo-print-windslicker-jacket?ID=6047416&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D55",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9582543_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Packable Half-Zip Windbreaker",
+        "prices":[  
+            49.99,
+            125.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-packable-half-zip-windbreaker?ID=5757696&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D54",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9333937_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Hooded Trucker Jacket",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/levis-hooded-trucker-jacket?ID=6750319&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D53",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9966067_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Faux-Down Hooded Bomber Jacket",
+        "prices":[  
+            117.99,
+            275.0,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-faux-down-hooded-bomber-jacket?ID=6656894&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D46",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10309631_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Big & Tall Point Collar Leather Jacket",
+        "prices":[  
+            299.99,
+            750.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-big-tall-point-collar-leather-jacket?ID=2876870&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D43",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/3770242_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lucky Brand Men's Fleece Lined Trucker Jacket",
+        "prices":[  
+            79.99,
+            200.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/lucky-brand-mens-fleece-lined-trucker-jacket?ID=6656819&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D42",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10007432_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Men's Big & Tall Beekman Reversible Stretch Jacket",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/london-fog-mens-big-tall-beekman-reversible-stretch-jacket?ID=6937836&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D40",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10172556_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Big & Tall Taslan Jacket",
+        "prices":[  
+            77.99,
+            195.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-big-tall-taslan-jacket?ID=4524338&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D38",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/8198702_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Double-Breasted Wool Peacoat, Created for Macy's",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-double-breasted-wool-peacoat-created-for-macys?ID=6550066&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D37",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9918450_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitter Men's Hooded Field Jacket",
+        "prices":[  
+            49.99,
+            125.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitter-mens-hooded-field-jacket?ID=5774827&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D30",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9586966_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Quilted Jacket",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-quilted-jacket?ID=4900645&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D29",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/8706084_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Hooded Soft Shell Jacket",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-hooded-soft-shell-jacket?ID=6472356&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D25",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/8706559_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Big & Tall Jacket with Faux Shearling Collar",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-big-tall-jacket-with-faux-shearling-collar?ID=2876581&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D24",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/3770226_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Plush Coat with Faux-Fur Trim",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-plush-coat-with-faux-fur-trim?ID=6731077&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D23",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10168270_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Faux-Leather Bomber Jacket",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-faux-leather-bomber-jacket?ID=5759870&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D22",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9397287_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"GUESS Men's Faux-Leather Moto Jacket with Removable Hood",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/guess-mens-faux-leather-moto-jacket-with-removable-hood?ID=6559711&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D20",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10021992_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Halifax Men's HFX Mix-Media Hooded Ski Jacket",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/halifax-mens-hfx-mix-media-hooded-ski-jacket?ID=5774933&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D19",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9569088_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Hooded Parka with Faux-Fur Trim",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-hooded-parka-with-faux-fur-trim?ID=6656898&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D17",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9923711_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Men's Audubon Microfiber Jacket",
+        "prices":[  
+            77.99,
+            195.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/london-fog-mens-audubon-microfiber-jacket?ID=6632694&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D15",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10006723_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Camo-Lined Parka",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-camo-lined-parka?ID=4864126&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D13",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/8671373_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Big & Tall Hooded Puffer Coat",
+        "prices":[  
+            125.99,
+            315.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-big-tall-hooded-puffer-coat?ID=2876868&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D9",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/3770368_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Halifax Men's Big & Tall Quilted Hooded Ski Jacket",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/halifax-mens-big-tall-quilted-hooded-ski-jacket?ID=6887170&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D8",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9874347_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitter Men's Ripstop Systems Jacket",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitter-mens-ripstop-systems-jacket?ID=6843312&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D5",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10074550_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lucky Brand Men's Faux-Leather Fleece-Lined Bomber Jacket",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/lucky-brand-mens-faux-leather-fleece-lined-bomber-jacket?ID=6661595&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D3",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10007497_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Big & Tall Colorblocked Hooded Jacket",
+        "prices":[  
+            69.99,
+            175.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-big-tall-colorblocked-hooded-jacket?ID=5774805&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D2",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9494131_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Coaches Jacket with Sherpa-Fleece Lining",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-coaches-jacket-with-sherpa-fleece-lining?ID=6729654&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D1",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10168390_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Colorblocked Logo-Print Windslicker Jacket",
+        "prices":[  
+            39.99,
+            100.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-colorblocked-logo-print-windslicker-jacket?ID=6576173&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D118",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9582545_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Boat House Hooded Bomber Jacket",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-boat-house-hooded-bomber-jacket?ID=5759503&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D117",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9397312_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Shiny Hooded Puffer Jacket",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-shiny-hooded-puffer-jacket?ID=6656899&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D116",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9923738_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Big and Tall Bomber Jacket",
+        "prices":[  
+            49.99,
+            125.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-big-tall-bomber-jacket?ID=6047401&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D115",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9584631_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Overcoat",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-overcoat?ID=4911986&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D113",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/8706118_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Club Room Men's Varsity Bomber Jacket, Created for Macy's",
+        "prices":[  
+            39.99,
+            99.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/club-room-mens-varsity-bomber-jacket-created-for-macys?ID=6536176&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D109",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10066126_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Big & Tall Stretch Reversible Jacket",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-big-tall-stretch-reversible-jacket?ID=7015192&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D108",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9919197_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Melton Jacket",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-melton-jacket?ID=2328312&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D107",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/2927412_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Packable Full-Zip Puffer Vest",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-packable-full-zip-puffer-vest?ID=6614912&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D106",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9848956_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Colorblocked Ski Jacket, Created for Macy's",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-colorblocked-ski-jacket-created-for-macys?ID=4920744&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D104",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/8734704_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Fleece-Collar Jacket",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-fleece-collar-jacket?ID=6656843&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D102",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10311931_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Full-Zip Hooded Scuba Jacket, Created for Macy's",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-full-zip-hooded-scuba-jacket-created-for-macys?ID=6542807&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D101",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10307324_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Alfani Men's Bonded Hooded Top Coat, Created for Macy's",
+        "prices":[  
+            59.8,
+            149.5
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/alfani-mens-bonded-hooded-top-coat-created-for-macys?ID=6511159&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D99",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10069180_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitters Men's Reversible Packable Vest",
+        "prices":[  
+            49.99,
+            125.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitters-mens-reversible-packable-vest?ID=5254327&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D98",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/8766454_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Kenny Puffer Parka Jacket",
+        "prices":[  
+            157.99,
+            395.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-kenny-puffer-parka-jacket?ID=6729781&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D97",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10168306_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitter Men's Ombr\u00e9 Packable Down Vest",
+        "prices":[  
+            29.99,
+            75.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitter-mens-ombre-packable-down-vest?ID=5792815&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D96",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9354972_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's City Rain Barn Coat",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-city-rain-barn-coat?ID=6748320&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D95",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10168553_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Flight Bomber Jacket",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-flight-bomber-jacket?ID=5757706&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D94",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9333929_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Leather Bomber Jacket, Created for Macy's",
+        "prices":[  
+            317.99,
+            795.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-leather-bomber-jacket-created-for-macys?ID=6549342&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D92",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9915736_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Ben Sherman Men's Flight Bomber Jacket",
+        "prices":[  
+            77.99,
+            195.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/ben-sherman-mens-flight-bomber-jacket?ID=5211111&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D91",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/8950668_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitter Men's Down Puffer Jacket",
+        "prices":[  
+            57.99,
+            145.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitter-mens-down-puffer-jacket?ID=6814055&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D87",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10025061_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Four-Pocket Full-Zip Hooded Parka, Created for Macy's",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-four-pocket-full-zip-hooded-parka-created-for-macys?ID=6542797&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D86",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10307449_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Full-Length Hooded Parka, Created for Macy's",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-full-length-hooded-parka-created-for-macys?ID=6550164&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D85",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10112793_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Buffalo David Bitton Men's Quilted Full-Zip Moto Jacket with Removable Hood",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/buffalo-david-bitton-mens-quilted-full-zip-moto-jacket-with-removable-hood?ID=6632883&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D79",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9872259_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Colorblocked Full-Zip Hooded Jacket",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-colorblocked-full-zip-hooded-jacket?ID=5764375&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D78",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9675011_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Mixed Media Hooded Jacket, Created for Macy's",
+        "prices":[  
+            69.99,
+            175.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-mixed-media-hooded-jacket-created-for-macys?ID=5757709&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D74",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9333898_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"GUESS Men's Baseball Snap-Front Puffer Jacket",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/guess-mens-baseball-snap-front-puffer-jacket?ID=6542266&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D71",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10022085_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Wool Cashmere Blend Overcoat",
+        "prices":[  
+            179.99,
+            450.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-wool-cashmere-blend-overcoat?ID=6615031&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D70",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10121067_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Weatherproof Men's Full-Zip Puffer Jacket with Faux-Fur Trim",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/weatherproof-mens-full-zip-puffer-jacket-with-faux-fur-trim?ID=6632681&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D66",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9903665_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Big & Tall Lightweight Full-Zip Jacket",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-big-tall-lightweight-full-zip-jacket?ID=4524500&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D64",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/8198707_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Hooded Soft Shell Jacket",
+        "prices":[  
+            63.99,
+            160.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-hooded-soft-shell-jacket?ID=4890494&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D62",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/8706583_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Four-Pocket Jacket with Fleece Lining, Created for Macy's",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/levis-mens-four-pocket-jacket-with-fleece-lining-created-for-macys?ID=6559445&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D61",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9901537_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Hartwich Colorblocked Quilted Down Jacket",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-hartwich-colorblocked-quilted-down-jacket?ID=6542183&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D60",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10008638_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Allman Wool Coat, Created for Macy's",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-allman-wool-coat-created-for-macys?ID=6670859&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D59",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10112993_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Long Hooded Bomber Jacket",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-long-hooded-bomber-jacket?ID=6656897&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D58",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9922089_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Insulated Anorak Coat",
+        "prices":[  
+            157.99,
+            395.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-insulated-anorak-coat?ID=4912142&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D57",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/8732006_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Classic Tumbled Coat with Hidden Placket",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-classic-tumbled-coat-with-hidden-placket?ID=6731078&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D55",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10168589_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Ripstop Hooded Windbreaker",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-ripstop-hooded-windbreaker?ID=6542159&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D53",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9829063_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Quilted Packable Jacket",
+        "prices":[  
+            157.99,
+            395.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-quilted-packable-jacket?ID=6729780&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D52",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10168066_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"GUESS Men's Aviator Jacket",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/guess-mens-aviator-jacket?ID=4873120&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D50",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/8864294_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Crinkle Down Hooded Parka, Created for Macy's",
+        "prices":[  
+            157.99,
+            395.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-crinkle-down-hooded-parka-created-for-macys?ID=6656893&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D49",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10309151_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"GUESS Men's Hooded Wool Coat",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/guess-mens-hooded-wool-coat?ID=6550124&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D48",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9855354_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Slim-Fit Seamless Puffer Coat",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-slim-fit-seamless-puffer-coat?ID=6542161&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D47",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9927791_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's 3-In-1 Jacket, Created for Macy's",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-3-in-1-jacket-created-for-macys?ID=4920820&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D46",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/8734683_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lucky Brand Men's Kayne Corduroy Sherpa Trucker Jacket with Fleece Lining",
+        "prices":[  
+            79.99,
+            200.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/lucky-brand-mens-kayne-corduroy-sherpa-trucker-jacket-with-fleece-lining?ID=6656818&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D45",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10170602_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Car Coat with Knit Inset",
+        "prices":[  
+            117.99,
+            250.0,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-car-coat-with-knit-inset?ID=6929003&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D44",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/8688956_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitters Men's Big & Tall Quilted Packable Down Jacket",
+        "prices":[  
+            49.99,
+            125.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitters-mens-big-tall-quilted-packable-down-jacket?ID=5899006&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D43",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9350586_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Men's Bern Long Car Coat with Bib",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/london-fog-mens-bern-long-car-coat-with-bib?ID=6632698&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D41",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10006744_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Oxford Hooded Jacket",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-oxford-hooded-jacket?ID=6729655&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D40",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10168410_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"WILLIAM RAST Men's Leather Moto Jacket",
+        "prices":[  
+            237.99,
+            595.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/william-rast-mens-leather-moto-jacket?ID=4986272&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D39",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/8925647_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Hooded Barn Jacket",
+        "prices":[  
+            69.99,
+            175.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-hooded-barn-jacket?ID=5757715&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D37",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9333812_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"MICHAEL Michael Kors Men's Hector Mixed-Media Down Fill Stretch Jacket",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-michael-kors-mens-hector-mixed-media-down-fill-stretch-jacket?ID=6542177&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D36",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10008627_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"WILLIAM RAST Men's Leather Varsity Baseball Jacket",
+        "prices":[  
+            237.99,
+            595.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/william-rast-mens-leather-varsity-baseball-jacket?ID=4986279&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D35",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/8821553_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Weatherproof Men's Faux-Suede Field Military Jacket",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/weatherproof-mens-faux-suede-field-military-jacket?ID=6661769&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D33",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9903939_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Logo-Print Full-Zip Hooded Windslicker",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-logo-print-full-zip-hooded-windslicker?ID=5764380&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D32",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9675190_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hawke & Co. Outfitter Men's Logan Faux-Fur-Trim Parka",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/hawke-co.-outfitter-mens-logan-faux-fur-trim-parka?ID=6837090&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D31",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10073252_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Fuzzy Sherpa Lined Windbreaker",
+        "prices":[  
+            77.99,
+            195.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-fuzzy-sherpa-lined-windbreaker?ID=6542162&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D29",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9957167_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Faux-Leather Jacket",
+        "prices":[  
+            69.99,
+            175.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-faux-leather-jacket?ID=5759859&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D28",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9334035_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Duffle Coat",
+        "prices":[  
+            157.99,
+            395.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-duffle-coat?ID=6615033&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D27",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9957192_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Big & Tall Three-Button Pea Coat",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-big-tall-three-button-pea-coat?ID=6936163&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D26",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9949466_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Quilted Stretch Reversible Jacket",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-quilted-stretch-reversible-jacket?ID=4866957&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D25",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9919273_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Fillmore Quilted Sherpa Fleece-Lined Jacket",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-fillmore-quilted-sherpa-fleece-lined-jacket?ID=6661597&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D24",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10215662_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"GUESS Men's Hooded Windbreaker",
+        "prices":[  
+            39.99,
+            100.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/guess-mens-hooded-windbreaker?ID=5759317&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D23",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9545545_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Big & Tall Commuter Parka with Faux-Fur Trimmed Hood",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-big-tall-commuter-parka-with-faux-fur-trimmed-hood?ID=6975926&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D19",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9918817_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Weatherproof Men's Faux-Suede Full-Zip Bomber Jacket",
+        "prices":[  
+            77.99,
+            195.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/weatherproof-mens-faux-suede-full-zip-bomber-jacket?ID=6661770&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D18",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9919599_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Ghent Stretch Wool Top Coat",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-ghent-stretch-wool-top-coat?ID=6663552&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D16",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10170636_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Moto Jacket",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-moto-jacket?ID=6075699&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D15",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9584777_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Leather Moto Jacket, Created for Macy's",
+        "prices":[  
+            277.99,
+            695.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-leather-moto-jacket-created-for-macys?ID=6549340&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D12",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10113094_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Snorkel Jacket with Faux-Fur Trim",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-snorkel-jacket-with-faux-fur-trim?ID=6559469&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D11",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9927957_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Faux Shearling Lined Leather Moto Jacket",
+        "prices":[  
+            119.99,
+            300.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-faux-shearling-lined-leather-moto-jacket?ID=6615144&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D7",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9845893_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Tailored Topcoat, Created for Macy's",
+        "prices":[  
+            149.99,
+            375.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-tailored-topcoat-created-for-macys?ID=6670860&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D6",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9915770_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Big and Tall Moto Jacket",
+        "prices":[  
+            59.99,
+            150.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-big-tall-moto-jacket?ID=6576160&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D5",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9584777_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Reversible Car Coat",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-reversible-car-coat?ID=2879021&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D4",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/3795651_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Walking Coat with Bib",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-walking-coat-with-bib?ID=6731079&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D120",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10168770_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Slim-Fit Overcoat",
+        "prices":[  
+            179.99,
+            450.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-slim-fit-overcoat?ID=6615032&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D119",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9845772_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Alfani Men's Full-Zip Leather Jacket, Created for Macy's",
+        "prices":[  
+            160.0,
+            400.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/alfani-mens-full-zip-leather-jacket-created-for-macys?ID=6555362&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D118",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10094796_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Toggle Coat",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-toggle-coat?ID=4986578&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D117",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/8766712_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Leather Croc Classic Overcoat Jacket, Created for Macy's",
+        "prices":[  
+            277.99,
+            695.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-leather-croc-classic-overcoat-jacket-created-for-macys?ID=6615095&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D116",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9915574_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Rigby Bonded-Jersey Raincoat",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-rigby-bonded-jersey-raincoat?ID=6656817&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D115",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10215541_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Faux-Fur Trimmed Parka",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-faux-fur-trimmed-parka?ID=4864123&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D113",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/8670601_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Faux-Leather Puffer Coat",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-faux-leather-puffer-coat?ID=2872148&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D112",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/3795607_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Weatherproof Men's Big & Tall Lightweight Full-Zip Bomber Jacket",
+        "prices":[  
+            49.99,
+            125.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/weatherproof-mens-big-tall-lightweight-full-zip-bomber-jacket?ID=2602210&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D110",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/3362153_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Hooded Bubble Parka, Created for Macy's",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-hooded-bubble-parka-created-for-macys?ID=6550163&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D109",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9963274_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Colorblocked Logo Rain Slicker",
+        "prices":[  
+            49.99,
+            125.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-colorblocked-logo-rain-slicker?ID=5759494&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D98",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9397297_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Wool Coat with Bib",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-wool-coat-with-bib?ID=6632626&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D97",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9919793_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"MICHAEL Kors Men's Faux-Leather Hooded Bomber Jacket",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-faux-leather-hooded-bomber-jacket?ID=2879004&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D93",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/3775003_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Leather Racer Jacket, Created for Macy's",
+        "prices":[  
+            237.99,
+            595.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-leather-racer-jacket-created-for-macys?ID=6615093&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D92",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9915623_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"MICHAEL Michael Kors Men's Essex Down Jacket",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-michael-kors-mens-essex-down-jacket?ID=6542174&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D91",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10008509_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Bonded Car Coat Parka",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-bonded-car-coat-parka?ID=4895513&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D90",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10168150_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Zip-Front Hooded Windbreaker",
+        "prices":[  
+            49.99,
+            125.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-zip-front-hooded-windbreaker?ID=4401397&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D87",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/8175367_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Mixed Media Quilted Jacket",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mixed-media-quilted-jacket?ID=2328308&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D85",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/2927405_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's 4-Pocket Hooded Jacket",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-4-pocket-hooded-jacket?ID=6542158&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D83",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9830168_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Leather Croc Jacket, Created for Macy's",
+        "prices":[  
+            237.99,
+            595.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/dkny-mens-leather-croc-jacket-created-for-macys?ID=6549341&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D82",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9915679_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Wool Melton Trucker with Faux Leather Trim",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-wool-melton-trucker-with-faux-leather-trim?ID=2879008&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D81",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/3781669_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Car Coat With Removable Liner",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-car-coat-with-removable-liner?ID=4888676&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D80",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/8696073_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Three-Button Pea Coat",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/nautica-mens-three-button-pea-coat?ID=6632628&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D79",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9919363_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"MICHAEL Michael Kors Men's Genoa Coat, Created for Macy's",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-michael-kors-mens-genoa-coat-created-for-macys?ID=6663551&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D77",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10008390_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Shirt Collar Leather Jacket",
+        "prices":[  
+            237.99,
+            595.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-shirt-collar-leather-jacket?ID=6885007&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D76",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10215390_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"MICHAEL Michael Kors Men's Hooded Puffer Jacket",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-michael-kors-mens-hooded-puffer-jacket?ID=6550094&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D74",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10007596_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Leather Jacket",
+        "prices":[  
+            237.99,
+            595.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-leather-jacket?ID=4597114&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D71",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10168206_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Hooded Bomber Jacket",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-hooded-bomber-jacket?ID=4920784&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D66",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9919762_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Leather Jacket with Bib",
+        "prices":[  
+            237.99,
+            595.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-leather-jacket-with-bib?ID=6885008&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D62",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10215439_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"MICHAEL Michael Kors Men's Hipster Jacket",
+        "prices":[  
+            89.99,
+            225.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-michael-kors-mens-hipster-jacket?ID=6663558&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D61",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10007659_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Bomber Jacket",
+        "prices":[  
+            39.99,
+            100.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-bomber-jacket?ID=6576430&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D59",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9584631_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Open Bottom Hipster Coat",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-open-bottom-hipster-coat?ID=6615034&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D58",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9983909_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Men's Varsity Hooded Puffer Jacket, Created for Macy's",
+        "prices":[  
+            99.99,
+            250.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-mens-varsity-hooded-puffer-jacket-created-for-macys?ID=6550157&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D56",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9917292_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"MICHAEL Michael Kors Men's Holland Hooded Parka",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-michael-kors-mens-holland-hooded-parka?ID=6559537&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D53",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10008500_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Guess Men's Military-Inspired Coat with Plaid Detail",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/guess-mens-military-inspired-coat-with-plaid-detail?ID=4986879&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D52",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9855368_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Weston Full-Zip Leather Moto Jacket, Created for Macy's",
+        "prices":[  
+            237.99,
+            595.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-weston-full-zip-leather-moto-jacket-created-for-macys?ID=6656382&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D47",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10260431_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Down Puffer Jacket with Fleece Bib",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-down-puffer-jacket-with-fleece-bib?ID=6656896&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D43",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10311751_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Melton Wool Walking Coat with Scarf",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-melton-wool-walking-coat-with-scarf?ID=2339094&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D41",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/8689127_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Alfani Men's Ribbed Bomber Jacket, Created for Macy's",
+        "prices":[  
+            55.8,
+            139.5
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/alfani-mens-ribbed-bomber-jacket-created-for-macys?ID=2683598&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D39",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/3392933_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"London Fog Men's Wool-Blend Layered Car Coat, Created for Macy's",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/london-fog-mens-wool-blend-layered-car-coat-created-for-macys?ID=2880571&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D38",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10006613_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"GUESS Men's Faux-Shearling Overcoat",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/guess-mens-faux-shearling-overcoat?ID=6542271&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D33",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10022041_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Full-Zip Wool Bomber Jacket",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-full-zip-wool-bomber-jacket?ID=6550090&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D31",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9828622_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Men's Car Coat",
+        "prices":[  
+            117.99,
+            295.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-car-coat?ID=6615035&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D27",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9983659_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Marc New York Men's Long Snorkel Down Coat with Faux-Fur Trim",
+        "prices":[  
+            157.99,
+            395.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/marc-new-york-mens-long-snorkel-down-coat-with-faux-fur-trim?ID=6656895&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D23",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10306378_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Wool-Blend Coat",
+        "prices":[  
+            109.99,
+            275.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-wool-blend-coat?ID=2328310&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D22",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/2927407_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Twill Bibby Overcoat",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-twill-bibby-overcoat?ID=2879031&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D20",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/3795633_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Short Snorkel Coat, Created for Macy's",
+        "prices":[  
+            129.99,
+            325.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-short-snorkel-coat-created-for-macys?ID=2339118&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D18",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10020397_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Tommy Hilfiger Long Snorkel Coat",
+        "prices":[  
+            139.99,
+            350.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/tommy-hilfiger-long-snorkel-coat?ID=2339119&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D10",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10113033_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Michael Kors Men's Hooded Bib Snorkel Parka, Created for Macy's",
+        "prices":[  
+            149.99,
+            375.0
+        ],
+        "discount":0.6,
+        "url":"https://www.macys.com/shop/product/michael-kors-mens-hooded-bib-snorkel-parka-created-for-macys?ID=2889924&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D7",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10516609_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Weatherproof Vintage Men's Quilted Jacket",
+        "prices":[  
+            34.0,
+            80.0
+        ],
+        "discount":0.57,
+        "url":"https://www.macys.com/shop/product/weatherproof-vintage-mens-quilted-jacket?ID=6702593&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D43",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10327037_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Loden Hooded Parka",
+        "prices":[  
+            89.99,
+            195.0
+        ],
+        "discount":0.54,
+        "url":"https://www.macys.com/shop/product/nautica-mens-loden-hooded-parka?ID=4866938&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D77",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9918767_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Fast Pack II Jacket",
+        "prices":[  
+            16.0,
+            34.0
+        ],
+        "discount":0.53,
+        "url":"https://www.macys.com/shop/product/ems-mens-fast-pack-ii-jacket?ID=6114657&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D86",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9474762_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Perforated Faux-Suede Hoodie",
+        "prices":[  
+            59.99,
+            124.5
+        ],
+        "discount":0.52,
+        "url":"https://www.macys.com/shop/product/levis-mens-perforated-faux-suede-hoodie?ID=6198881&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D11",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9557437_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Acid Wash Bomber Jacket",
+        "prices":[  
+            59.99,
+            124.5
+        ],
+        "discount":0.52,
+        "url":"https://www.macys.com/shop/product/levis-mens-acid-wash-bomber-jacket?ID=6198879&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D120",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9557454_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Camo-Print Hooded Parka",
+        "prices":[  
+            59.99,
+            124.5
+        ],
+        "discount":0.52,
+        "url":"https://www.macys.com/shop/product/levis-mens-camo-print-hooded-parka?ID=5934265&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D108",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9407879_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Gelert Men's Softshell Jacket from Eastern Mountain Sports",
+        "prices":[  
+            31.5,
+            64.99
+        ],
+        "discount":0.52,
+        "url":"https://www.macys.com/shop/product/gelert-mens-softshell-jacket-from-eastern-mountain-sports?ID=6455334&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D7",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9716112_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Gelert Men's Packaway Jacket from Eastern Mountain Sports",
+        "prices":[  
+            24.0,
+            49.99
+        ],
+        "discount":0.52,
+        "url":"https://www.macys.com/shop/product/gelert-mens-packaway-jacket-from-eastern-mountain-sports?ID=6455285&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D72",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9715960_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"BOSS Men's Brushed Cotton Jacket",
+        "prices":[  
+            193.99,
+            395.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/boss-mens-brushed-cotton-jacket?ID=6011804&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D10",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9421731_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Adirondack Quilted Shirt Jacket",
+        "prices":[  
+            43.75,
+            89.5
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-adirondack-quilted-shirt-jacket?ID=6114204&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D53",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9474264_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Chinook Bonded Fleece Jacket",
+        "prices":[  
+            68.5,
+            139.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-chinook-bonded-fleece-jacket?ID=6153641&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D25",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9574653_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Softshell Jacket",
+        "prices":[  
+            63.5,
+            129.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-softshell-jacket?ID=6374373&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D10",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9685630_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Triton 3-in-1 Full-Zip Waterproof Jacket",
+        "prices":[  
+            98.5,
+            199.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-triton-3-in-1-full-zip-waterproof-jacket?ID=6114131&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D99",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9475138_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Rampart Soft-Shell Full-Zip Vest",
+        "prices":[  
+            58.5,
+            119.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-rampart-soft-shell-full-zip-vest?ID=6114151&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D97",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9474687_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS Men's Techwick Active Hybrid Jacket from Eastern Mountain Sports",
+        "prices":[  
+            61.5,
+            125.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-techwick-active-hybrid-jacket-from-eastern-mountain-sports?ID=6455278&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D80",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9715933_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Impact Hybrid Jacket",
+        "prices":[  
+            63.5,
+            129.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-impact-hybrid-jacket?ID=6153643&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D57",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9574692_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Classic Polartec\u00ae 200 Fleece Full-Zip Jacket",
+        "prices":[  
+            38.5,
+            79.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-classic-polartec-200-fleece-full-zip-jacket?ID=6114141&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D44",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9475158_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Classic Polartec\u00ae 200 Full-Zip Fleece Vest",
+        "prices":[  
+            36.5,
+            75.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-classic-polartec-200-full-zip-fleece-vest?ID=6114142&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D41",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9475154_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Feather Packable Jacket",
+        "prices":[  
+            98.5,
+            199.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-feather-packable-jacket?ID=6153620&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D31",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9574536_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Roundtrip Trek Full-Zip Fleece Jacket",
+        "prices":[  
+            43.5,
+            89.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-roundtrip-trek-full-zip-fleece-jacket?ID=6114603&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D21",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9475128_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Thunderhead Full-Zip Hooded Rain Jacket",
+        "prices":[  
+            48.5,
+            99.0
+        ],
+        "discount":0.51,
+        "url":"https://www.macys.com/shop/product/ems-mens-thunderhead-full-zip-hooded-rain-jacket?ID=6651475&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D56",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9881152_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Men's Essentials Tricot Track Jacket",
+        "prices":[  
+            30.0,
+            60.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/adidas-mens-essentials-tricot-track-jacket?ID=4894546&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D80",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9265409_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Men's Squad ID Track Jacket",
+        "prices":[  
+            32.5,
+            48.75,
+            65.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/adidas-mens-squad-id-track-jacket?ID=4462172&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D29",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8638855_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Champion Men's Packable Half-Zip Hooded Water-Resistant Jacket",
+        "prices":[  
+            22.5,
+            45.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/champion-mens-packable-half-zip-hooded-water-resistant-jacket?ID=5739738&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D8",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9717529_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Puma Men's Fleece Core Track Jacket",
+        "prices":[  
+            27.5,
+            38.5,
+            55.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/puma-mens-fleece-core-track-jacket?ID=4745756&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D94",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/8866027_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Ryan Seacrest Distinction\u2122 Men's Mix-Texture Knit Jacket, Created for Macy's",
+        "prices":[  
+            49.0,
+            98.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/ryan-seacrest-distinction-mens-mix-texture-knit-jacket-created-for-macys?ID=6819238&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D51",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10211692_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Alfani Men's Full-Zip Hoodie with Faux-Fur Lining, Created for Macy's",
+        "prices":[  
+            54.5,
+            109.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/alfani-mens-full-zip-hoodie-with-faux-fur-lining-created-for-macys?ID=6809492&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D48",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10204506_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Ryan Seacrest Distinction\u2122 Men's Long Overcoat, Created for Macy's",
+        "prices":[  
+            124.75,
+            249.5
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/ryan-seacrest-distinction-mens-long-overcoat-created-for-macys?ID=6819246&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D38",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10213728_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Jeans Men's Padded Trucker Jacket",
+        "prices":[  
+            119.0,
+            238.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/calvin-klein-jeans-mens-padded-trucker-jacket?ID=6815007&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D24",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10291855_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Ryan Seacrest Distinction\u2122 Men's Removable-Collar Jacket, Created for Macy's",
+        "prices":[  
+            112.5,
+            225.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/ryan-seacrest-distinction-mens-removable-collar-jacket-created-for-macys?ID=6819242&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D21",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10263273_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Reversible Bomber Jacket, Created for Macy's",
+        "prices":[  
+            64.5,
+            129.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-reversible-bomber-jacket-created-for-macys?ID=4840030&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D120",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8849265_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Jeans Men's Colorblocked Western Jacket",
+        "prices":[  
+            99.0,
+            198.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/calvin-klein-jeans-mens-colorblocked-western-jacket?ID=6815009&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D113",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10314870_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Jeans Men's Tash Blue Modern Classic Tracker Jacket",
+        "prices":[  
+            44.75,
+            89.5
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/calvin-klein-jeans-mens-tash-blue-modern-classic-tracker-jacket?ID=6814970&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D108",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10470946_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Quilted Packable Hooded Full-Zip Jacket",
+        "prices":[  
+            113.5,
+            229.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/ems-mens-quilted-packable-hooded-full-zip-jacket?ID=6680207&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D92",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9906210_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Alpine Ascender Stretch Jacket",
+        "prices":[  
+            113.5,
+            229.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/ems-mens-alpine-ascender-stretch-jacket?ID=6114040&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D65",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9605889_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Classic Fit Varsity Bomber Jacket",
+        "prices":[  
+            64.5,
+            129.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-classic-fit-varsity-bomber-jacket?ID=6657972&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D52",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10314911_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Jeans Men's Modern Destroyed Denim Trucker Jacket",
+        "prices":[  
+            74.0,
+            148.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/calvin-klein-jeans-mens-modern-destroyed-denim-trucker-jacket?ID=6815003&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D12",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10170595_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Kenneth Cole Men's Full-Zip Bomber Jacket",
+        "prices":[  
+            59.5,
+            119.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/kenneth-cole-mens-full-zip-bomber-jacket?ID=6865853&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D110",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10291647_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Tricot Track Jacket",
+        "prices":[  
+            34.5,
+            69.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-tricot-track-jacket?ID=7014968&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D93",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10340987_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Alfani Men's Mock Collar Textured Top Coat, Created for Macy's",
+        "prices":[  
+            89.75,
+            179.5
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/alfani-mens-mock-collar-textured-top-coat-created-for-macys?ID=3039478&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D89",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/3921475_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein Jeans Men's Classic Denim Trucker Jacket",
+        "prices":[  
+            44.75,
+            89.5
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/calvin-klein-jeans-mens-classic-denim-trucker-jacket?ID=6814971&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D83",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10314872_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Catskill 3-in-1 Packable Waterproof Jacket",
+        "prices":[  
+            133.5,
+            269.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/ems-mens-catskill-3-in-1-packable-waterproof-jacket?ID=6114041&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D82",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9475146_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Trench Coat",
+        "prices":[  
+            92.5,
+            185.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/dkny-mens-trench-coat?ID=6586678&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D81",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9974235_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Hooded Puffer Vest",
+        "prices":[  
+            49.5,
+            99.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-hooded-puffer-vest?ID=6911756&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D76",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10309733_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Classic-Fit Utility Jacket",
+        "prices":[  
+            72.5,
+            145.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/dkny-mens-classic-fit-utility-jacket?ID=6586677&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D75",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9974656_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DKNY Men's Hooded Jacket",
+        "prices":[  
+            82.5,
+            165.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/dkny-mens-hooded-jacket?ID=6586676&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D63",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9974736_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Sean John Men's Varsity Jacket",
+        "prices":[  
+            79.5,
+            159.0
+        ],
+        "discount":0.5,
+        "url":"https://www.macys.com/shop/product/sean-john-mens-varsity-jacket?ID=6657971&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D10",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10314923_fpx.tif?$thumb$"
+    },
+    {  
+        "a":1,
+        "b":2,
+        "discount":0.5
+    },
+    {  
+        "title":"Retro Brand Men's Seattle Sounders FC Ice Jacket",
+        "prices":[  
+            37.1,
+            70.0
+        ],
+        "discount":0.47,
+        "url":"https://www.macys.com/shop/product/retro-brand-mens-seattle-sounders-fc-ice-jacket?ID=5701533&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D71",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9240476_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Faux-Sherpa-Lined Logo Hoodie",
+        "prices":[  
+            79.99,
+            149.5
+        ],
+        "discount":0.46,
+        "url":"https://www.macys.com/shop/product/levis-mens-faux-sherpa-lined-logo-hoodie?ID=6791543&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D30",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10014518_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's All-Over Sherpa Trucker Jacket",
+        "prices":[  
+            79.99,
+            149.5
+        ],
+        "discount":0.46,
+        "url":"https://www.macys.com/shop/product/levis-mens-all-over-sherpa-trucker-jacket?ID=6937591&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D28",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10944703_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Faux-Leather Trucker Jacket",
+        "prices":[  
+            79.99,
+            149.5
+        ],
+        "discount":0.46,
+        "url":"https://www.macys.com/shop/product/levis-mens-faux-leather-trucker-jacket?ID=6198870&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D119",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9569141_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Mixed Media Varsity Jacket With Logo",
+        "prices":[  
+            79.99,
+            149.5
+        ],
+        "discount":0.46,
+        "url":"https://www.macys.com/shop/product/levis-mixed-media-varsity-jacket-with-logo?ID=6765640&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D18",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10014482_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Detachable-Sleeve Jacket",
+        "prices":[  
+            81.4,
+            148.0
+        ],
+        "discount":0.45,
+        "url":"https://www.macys.com/shop/product/nautica-mens-detachable-sleeve-jacket?ID=6667191&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D52",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10093378_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Heritage Popover Jacket",
+        "prices":[  
+            108.9,
+            198.0
+        ],
+        "discount":0.45,
+        "url":"https://www.macys.com/shop/product/nautica-mens-heritage-popover-jacket?ID=6667196&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D39",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10096677_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's 3-in-1 Jacket",
+        "prices":[  
+            154.0,
+            280.0
+        ],
+        "discount":0.45,
+        "url":"https://www.macys.com/shop/product/nautica-mens-3-in-1-jacket?ID=6667199&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D17",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10093147_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Colorblocked Quilted Jacket",
+        "prices":[  
+            81.4,
+            148.0
+        ],
+        "discount":0.45,
+        "url":"https://www.macys.com/shop/product/nautica-mens-colorblocked-quilted-jacket?ID=6667189&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D15",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10096688_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Colorblocked Track Jacket",
+        "prices":[  
+            81.4,
+            148.0
+        ],
+        "discount":0.45,
+        "url":"https://www.macys.com/shop/product/nautica-mens-colorblocked-track-jacket?ID=6667125&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D115",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10093342_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Lightweight Jacket",
+        "prices":[  
+            81.4,
+            148.0
+        ],
+        "discount":0.45,
+        "url":"https://www.macys.com/shop/product/nautica-mens-lightweight-jacket?ID=6666213&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D48",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10096147_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Colorblocked Snap-Front Jacket",
+        "prices":[  
+            81.4,
+            148.0
+        ],
+        "discount":0.45,
+        "url":"https://www.macys.com/shop/product/nautica-mens-colorblocked-snap-front-jacket?ID=6666214&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D34",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10096157_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Men\u2019s Waterproof Hooded Bomber Jacket",
+        "prices":[  
+            54.45,
+            99.0
+        ],
+        "discount":0.45,
+        "url":"https://www.macys.com/shop/product/nautica-mens-mens-waterproof-hooded-bomber-jacket?ID=6667127&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D73",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9895288_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Colorblocked Down Bomber Jacket",
+        "prices":[  
+            108.9,
+            198.0
+        ],
+        "discount":0.45,
+        "url":"https://www.macys.com/shop/product/nautica-mens-colorblocked-down-bomber-jacket?ID=6666212&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D54",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10096136_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Waterproof Hooded Jacket",
+        "prices":[  
+            54.45,
+            99.0
+        ],
+        "discount":0.45,
+        "url":"https://www.macys.com/shop/product/nautica-mens-waterproof-hooded-jacket?ID=4878546&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D55",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/8732854_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Glennaker Lake Rain Jacket",
+        "prices":[  
+            42.0,
+            60.0,
+            75.0
+        ],
+        "discount":0.44,
+        "url":"https://www.macys.com/shop/product/columbia-mens-glennaker-lake-rain-jacket?ID=643594&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D67",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/1132575_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Karrimor Men's Running Jacket from Eastern Mountain Sports",
+        "prices":[  
+            28.99,
+            49.99
+        ],
+        "discount":0.42,
+        "url":"https://www.macys.com/shop/product/karrimor-mens-running-jacket-from-eastern-mountain-sports?ID=6484621&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D29",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9733944_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Karrimor Men's Fleece Jacket from Eastern Mountain Sports",
+        "prices":[  
+            33.79,
+            57.99
+        ],
+        "discount":0.42,
+        "url":"https://www.macys.com/shop/product/karrimor-mens-fleece-jacket-from-eastern-mountain-sports?ID=6455338&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D60",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9716790_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Karrimor Men's Ridge Soft Shell Jacket from Eastern Mountain Sports",
+        "prices":[  
+            57.79,
+            97.99
+        ],
+        "discount":0.41,
+        "url":"https://www.macys.com/shop/product/karrimor-mens-ridge-soft-shell-jacket-from-eastern-mountain-sports?ID=6115042&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D47",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9476295_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Karrimor Men's Alpiniste Soft Shell Jacket from Eastern Mountain Sports",
+        "prices":[  
+            82.99,
+            139.99
+        ],
+        "discount":0.41,
+        "url":"https://www.macys.com/shop/product/karrimor-mens-alpiniste-soft-shell-jacket-from-eastern-mountain-sports?ID=6114935&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D45",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9476297_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Karrimor Men's Hoolie Fleece Jacket from Eastern Mountain Sports",
+        "prices":[  
+            49.99,
+            84.99
+        ],
+        "discount":0.41,
+        "url":"https://www.macys.com/shop/product/karrimor-mens-hoolie-fleece-jacket-from-eastern-mountain-sports?ID=6114394&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D16",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9476221_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Karrimor Men's Sierra Jacket from Eastern Mountain Sports",
+        "prices":[  
+            57.79,
+            97.99
+        ],
+        "discount":0.41,
+        "url":"https://www.macys.com/shop/product/karrimor-mens-sierra-jacket-from-eastern-mountain-sports?ID=6114193&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D5",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9476267_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Karrimor Men's Urban Jacket from Eastern Mountain Sports",
+        "prices":[  
+            64.99,
+            109.99
+        ],
+        "discount":0.41,
+        "url":"https://www.macys.com/shop/product/karrimor-mens-urban-jacket-from-eastern-mountain-sports?ID=6114670&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D112",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9476276_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Karrimor Men's 3-in-1 Jacket from Eastern Mountain Sports",
+        "prices":[  
+            85.99,
+            144.99
+        ],
+        "discount":0.41,
+        "url":"https://www.macys.com/shop/product/karrimor-mens-3-in-1-jacket-from-eastern-mountain-sports?ID=6114227&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D58",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9476227_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"A|X Armani Exchange Men's Shashiko Jacket",
+        "prices":[  
+            108.0,
+            180.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/ax-armani-exchange-mens-shashiko-jacket?ID=5888119&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D10%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D77",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9514780_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Barbour Men's Dolan Colorblocked Rain Jacket",
+        "prices":[  
+            197.4,
+            329.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/barbour-mens-dolan-colorblocked-rain-jacket?ID=5774775&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D78",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9747693_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Original Penguin Men's Patch Pocket Reversible Printed Jacket",
+        "prices":[  
+            90.0,
+            150.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/original-penguin-mens-patch-pocket-reversible-printed-jacket?ID=6454698&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D66",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9748992_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"A|X Armani Exchange Men's Reversible Bomber Jacket",
+        "prices":[  
+            120.0,
+            200.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/ax-armani-exchange-mens-reversible-bomber-jacket?ID=6336441&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D47",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9767789_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Barbour Men's Bollen Casual Jacket",
+        "prices":[  
+            131.4,
+            219.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/barbour-mens-bollen-casual-jacket?ID=5774719&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D41",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9747851_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"A|X Armani Exchange Men's High Neck Jacket",
+        "prices":[  
+            108.0,
+            180.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/ax-armani-exchange-mens-high-neck-jacket?ID=5964912&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D120",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9489531_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"LRG Men's Big L Appliqu\u00e9 Logo-Print Coaches Jacket",
+        "prices":[  
+            29.4,
+            49.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/lrg-mens-big-l-applique-logo-print-coaches-jacket?ID=6537992&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D104",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9777473_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"A|X Armani Exchange Men's Printed Bomber Jacket",
+        "prices":[  
+            108.0,
+            180.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/ax-armani-exchange-mens-printed-bomber-jacket?ID=6336589&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D54",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9767799_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"G-Star RAW Men's Camo Print Utility Jacket",
+        "prices":[  
+            126.0,
+            210.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/g-star-raw-mens-camo-print-utility-jacket?ID=6557992&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D46",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10216835_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"G-Star RAW Men's Striped Stretch Denim Jacket, Created for Macy's",
+        "prices":[  
+            90.0,
+            150.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/g-star-raw-mens-striped-stretch-denim-jacket-created-for-macys?ID=6497299&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D27",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9761468_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Superdry Men's Camo Bomber Jacket",
+        "prices":[  
+            62.7,
+            104.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/superdry-mens-camo-bomber-jacket?ID=6303863&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D120",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9682090_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hurley Men's Protect Stretch 2.0 Full-Zip Hooded Jacket",
+        "prices":[  
+            54.0,
+            90.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/hurley-mens-protect-stretch-2.0-full-zip-hooded-jacket?ID=6261690&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D111",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9673579_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"The North Face Men's Cyclone Colorblocked Hooded Jacket",
+        "prices":[  
+            39.0,
+            65.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/the-north-face-mens-cyclone-colorblocked-hooded-jacket?ID=5445203&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D100",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9851981_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Barbour Men's Cogra Hooded Jacket",
+        "prices":[  
+            179.4,
+            299.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/barbour-mens-cogra-hooded-jacket?ID=5774717&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D48",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9747900_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"G-Star RAW Men's Lanc Slim Fit Track Jacket, Created for Macy's",
+        "prices":[  
+            78.0,
+            130.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/g-star-raw-mens-lanc-slim-fit-track-jacket-created-for-macys?ID=7482390&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D24",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9899657_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Cole Haan Men's Hidden-Placket Wool Coat",
+        "prices":[  
+            176.99,
+            295.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/cole-haan-mens-hidden-placket-wool-coat?ID=4912137&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D114",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/8706193_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Calvin Klein  Men's Pea Coat",
+        "prices":[  
+            178.8,
+            298.0,
+            298.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/calvin-klein-mens-pea-coat?ID=6936150&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D104",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10191198_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"ID Ideology Men's Track Jacket, Created for Macy's",
+        "prices":[  
+            27.0,
+            45.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/id-ideology-mens-track-jacket-created-for-macys?ID=3181856&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D89",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/8732289_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Ideology Men's Colorblocked Track Jacket, Created for Macy's",
+        "prices":[  
+            27.0,
+            45.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/ideology-mens-colorblocked-track-jacket-created-for-macys?ID=5472327&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D52",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9341560_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"The North Face Men's Millerton Hooded Rain Jacket",
+        "prices":[  
+            69.0,
+            115.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/the-north-face-mens-millerton-hooded-rain-jacket?ID=7142450&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D35",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9442375_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Heritage American Men's Wolf Denim Jacket",
+        "prices":[  
+            82.8,
+            138.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/heritage-american-mens-wolf-denim-jacket?ID=6868055&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D50",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10630095_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DOPE Men's Colorblocked Training Day Track Jacket",
+        "prices":[  
+            52.8,
+            88.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/dope-mens-colorblocked-training-day-track-jacket?ID=6666356&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D44",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10305264_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DOPE Men's Graphic Logo Pitstop Jacket",
+        "prices":[  
+            52.8,
+            88.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/dope-mens-graphic-logo-pitstop-jacket?ID=6666351&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D43",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10305276_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Take Over Navy Colorblocked Hooded Track Jacket",
+        "prices":[  
+            60.0,
+            100.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-take-over-navy-colorblocked-hooded-track-jacket?ID=6872182&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D41",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10171551_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Punk Royal Men's Hooded Camo Jacket",
+        "prices":[  
+            47.4,
+            79.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/punk-royal-mens-hooded-camo-jacket?ID=6698730&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D33",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10127507_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hudson NYC Men's Glen Plaid Track Jacket",
+        "prices":[  
+            47.7,
+            79.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/hudson-nyc-mens-glen-plaid-track-jacket?ID=6971023&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D32",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10460561_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Members Only Men's Quilted Faux Leather Bomber",
+        "prices":[  
+            65.4,
+            109.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/members-only-mens-quilted-faux-leather-bomber?ID=5306232&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D31",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9181269_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"American Rag Men's Appliqu\u00e9 Varsity Vest, Created for Macy's",
+        "prices":[  
+            48.0,
+            80.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/american-rag-mens-applique-varsity-vest-created-for-macys?ID=6511129&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D28",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10023613_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Punk Royal Men's Hooded Wind Runner Jacket",
+        "prices":[  
+            47.4,
+            79.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/punk-royal-mens-hooded-wind-runner-jacket?ID=6698726&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D27",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10127499_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DOPE Men's Sport Anorak Jacket",
+        "prices":[  
+            52.8,
+            88.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/dope-mens-sport-anorak-jacket?ID=6666352&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D26",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10305268_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Superdry Men's Otis Colorblocked Padded Track Jacket",
+        "prices":[  
+            59.7,
+            99.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/superdry-mens-otis-colorblocked-padded-track-jacket?ID=6626525&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D14",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9907961_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"DOPE Men's Classic Fit Gamesman Anorak Jacket",
+        "prices":[  
+            52.8,
+            88.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/dope-mens-classic-fit-gamesman-anorak-jacket?ID=6666353&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D12",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10305266_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Karrimor Men's Hot Rock Jacket from Eastern Mountain Sports",
+        "prices":[  
+            133.99,
+            224.99
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/karrimor-mens-hot-rock-jacket-from-eastern-mountain-sports?ID=6455351&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D11",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9716815_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"American Rag Men's Chest-Stripe Bomber Jacket, Created for Macy's",
+        "prices":[  
+            48.0,
+            80.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/american-rag-mens-chest-stripe-bomber-jacket-created-for-macys?ID=6384508&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D8",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9876798_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Take Over Camo Colorblocked Hooded Track Jacket",
+        "prices":[  
+            39.0,
+            65.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-take-over-camo-colorblocked-hooded-track-jacket?ID=6843387&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D6",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10171527_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Take Over Black Colorblocked Hooded Track Jacket",
+        "prices":[  
+            60.0,
+            100.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-take-over-black-colorblocked-hooded-track-jacket?ID=6843386&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D4",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10171525_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hudson NYC Men's Glen Plaid Track Jacket",
+        "prices":[  
+            53.7,
+            89.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/hudson-nyc-mens-glen-plaid-track-jacket?ID=6971006&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D3",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10296609_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"INC Men's Camo-Print Flocket Parka, Created for Macy's",
+        "prices":[  
+            107.7,
+            179.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/inc-mens-camo-print-flocket-parka-created-for-macys?ID=6600199&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D119",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10270899_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Faux Leather Hooded Jacket, Created for Macy's",
+        "prices":[  
+            77.7,
+            129.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-faux-leather-hooded-jacket-created-for-macys?ID=6622722&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D118",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10312373_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Velvet Bomber Jacket, Created for Macy's",
+        "prices":[  
+            77.7,
+            129.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-velvet-bomber-jacket-created-for-macys?ID=6805454&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D117",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10460385_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Jaywalker Men's Camo Bomber Jacket, Created for Macys",
+        "prices":[  
+            34.8,
+            58.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/jaywalker-mens-camo-bomber-jacket-created-for-macys?ID=4767557&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D116",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/8583392_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Potion Jacket, Created for Macy's",
+        "prices":[  
+            47.7,
+            79.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-potion-jacket-created-for-macys?ID=6703768&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D110",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10460416_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Faux Leather Bomber Jacket, Created for Macy's",
+        "prices":[  
+            77.7,
+            129.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-faux-leather-bomber-jacket-created-for-macys?ID=6646227&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D109",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10312406_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Serpent Embroidered Track Jacket",
+        "prices":[  
+            45.0,
+            75.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-serpent-embroidered-track-jacket?ID=6843388&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D107",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10171529_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Boulder Hoodie, Created for Macy's",
+        "prices":[  
+            45.0,
+            75.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-boulder-hoodie-created-for-macys?ID=6720380&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D102",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10460371_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hudson NYC Men's Classic Fit Colorblocked Track Jacket",
+        "prices":[  
+            47.7,
+            79.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/hudson-nyc-mens-classic-fit-colorblocked-track-jacket?ID=6931785&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D95",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10296685_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Members Only Men's Mixed Media Varsity Jacket",
+        "prices":[  
+            65.4,
+            109.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/members-only-mens-mixed-media-varsity-jacket?ID=5306235&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D93",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9181271_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"American Rag Men's Tonal Camouflage Hooded Bomber Jacket, Created for Macy's",
+        "prices":[  
+            48.0,
+            80.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/american-rag-mens-tonal-camouflage-hooded-bomber-jacket-created-for-macys?ID=6496128&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D91",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10023633_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Strokes Varsity Jacket, Created for Macy's",
+        "prices":[  
+            45.0,
+            75.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-strokes-varsity-jacket-created-for-macys?ID=5528187&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D89",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10317757_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Flying Sharks Track Jacket",
+        "prices":[  
+            45.0,
+            75.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-flying-sharks-track-jacket?ID=6688904&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D85",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9929408_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"American Rag Men's Hybrid Varsity Jacket, Created for Macy's",
+        "prices":[  
+            60.0,
+            100.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/american-rag-mens-hybrid-varsity-jacket-created-for-macys?ID=6676490&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D84",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10079029_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Punk Royal Men's Patch Denim Jacket",
+        "prices":[  
+            53.4,
+            89.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/punk-royal-mens-patch-denim-jacket?ID=6698724&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D78",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10127503_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"American Rag Men's Camo Bomber Jacket, Created for Macy's",
+        "prices":[  
+            48.0,
+            80.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/american-rag-mens-camo-bomber-jacket-created-for-macys?ID=6385898&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D73",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9877047_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Sequin Bomber Jacket, Created for Macy's",
+        "prices":[  
+            89.7,
+            149.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-sequin-bomber-jacket-created-for-macys?ID=4931850&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D70",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/8877811_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"American Rag Men's Hybrid Varsity Bomber Jacket, Created for Macy's",
+        "prices":[  
+            60.0,
+            100.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/american-rag-mens-hybrid-varsity-bomber-jacket-created-for-macys?ID=6676489&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D69",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10079062_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Members Only Men's Fleece-Collar Bomber Jacket",
+        "prices":[  
+            77.4,
+            129.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/members-only-mens-fleece-collar-bomber-jacket?ID=5306234&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D67",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9181276_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hudson NYC Men's Japan Graphic Zip-Front Track Jacket",
+        "prices":[  
+            53.7,
+            89.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/hudson-nyc-mens-japan-graphic-zip-front-track-jacket?ID=6889179&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D63",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10296834_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Rip & Repair Trucker Jacket, Created for Macy's",
+        "prices":[  
+            77.7,
+            129.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-rip-repair-trucker-jacket-created-for-macys?ID=6606723&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D62",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10312375_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Jardin Track Jacket",
+        "prices":[  
+            45.0,
+            75.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-jardin-track-jacket?ID=6688906&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D51",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9929413_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Dragons Embroidered Full-Zip Track Jacket",
+        "prices":[  
+            45.0,
+            75.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-dragons-embroidered-full-zip-track-jacket?ID=6872174&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D50",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10171518_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Ted Wool-Blend Coat, Created for Macy's",
+        "prices":[  
+            107.7,
+            179.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-ted-wool-blend-coat-created-for-macys?ID=1770177&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D49",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/2445811_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Cutclass Bomber Jacket",
+        "prices":[  
+            78.0,
+            130.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-cutclass-bomber-jacket?ID=6688901&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D47",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9929367_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Jaywalker Men's Nylon Baseball Jacket",
+        "prices":[  
+            34.8,
+            58.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/jaywalker-mens-nylon-baseball-jacket?ID=5219569&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D45",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/8985508_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Zipper Jacket with Faux Leather Trim, Created for Macy's",
+        "prices":[  
+            47.7,
+            79.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-zipper-jacket-with-faux-leather-trim-created-for-macys?ID=5368447&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D35",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9164703_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Moto Jacket with Fleece-Lined Collar",
+        "prices":[  
+            78.0,
+            130.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-moto-jacket-with-fleece-lined-collar?ID=6843390&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D33",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10171534_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Patches Denim Jacket",
+        "prices":[  
+            72.0,
+            120.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-patches-denim-jacket?ID=6666785&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D28",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9929373_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Personnel Patch Parka",
+        "prices":[  
+            78.0,
+            130.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-personnel-patch-parka?ID=6813973&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D27",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10210642_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's M65 Field Jacket",
+        "prices":[  
+            78.0,
+            130.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-m65-field-jacket?ID=6688900&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D26",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9929363_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Slick Jacquard Jacket, Created for Macy's",
+        "prices":[  
+            47.7,
+            79.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-slick-jacquard-jacket-created-for-macys?ID=5674314&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D16",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9261612_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"American Rag Men's Varsity Corduroy Bomber Jacket, Created for Macy's",
+        "prices":[  
+            48.0,
+            80.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/american-rag-mens-varsity-corduroy-bomber-jacket-created-for-macys?ID=6496132&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D11",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10079026_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Sequined Camo Bomber Jacket, Created for Macy's",
+        "prices":[  
+            89.7,
+            149.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-sequined-camo-bomber-jacket-created-for-macys?ID=6600198&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D4",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10312359_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Members Only Men's Reversible Nickelodeon Jacket",
+        "prices":[  
+            77.4,
+            129.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/members-only-mens-reversible-nickelodeon-jacket?ID=5306239&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D112",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9181291_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Superdry Men's Mountain Softshell Hybrid Jacket",
+        "prices":[  
+            59.7,
+            99.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/superdry-mens-mountain-softshell-hybrid-jacket?ID=6729395&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D103",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10080024_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Member's Only Men's Iconic Racer Lightweight Jacket",
+        "prices":[  
+            53.4,
+            89.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/members-only-mens-iconic-racer-lightweight-jacket?ID=6009472&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D88",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9442554_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Crushers Hooded Denim Jacket",
+        "prices":[  
+            78.0,
+            130.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-crushers-hooded-denim-jacket?ID=6813972&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D84",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10210644_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Scout Trucker Jacket",
+        "prices":[  
+            72.0,
+            120.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-scout-trucker-jacket?ID=6666783&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D80",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9929418_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Kingdom Varsity Jacket",
+        "prices":[  
+            96.0,
+            160.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-kingdom-varsity-jacket?ID=6666786&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D42",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9929365_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Superdry Men's Hooded Elite Windcheater Jacket",
+        "prices":[  
+            59.7,
+            99.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/superdry-mens-hooded-elite-windcheater-jacket?ID=5922188&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D30",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9938589_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"American Rag Men's Fleece Varsity Jacket, Created for Macy's",
+        "prices":[  
+            48.0,
+            80.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/american-rag-mens-fleece-varsity-jacket-created-for-macys?ID=6496129&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D13",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10023543_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Asymmetrical Full-Zip Leather Jacket, Created for Macy's",
+        "prices":[  
+            239.7,
+            399.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-asymmetrical-full-zip-leather-jacket-created-for-macys?ID=6600201&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D8",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10312387_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"American Rag Men's Hooded Denim Jacket, Created for Macy's",
+        "prices":[  
+            36.0,
+            60.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/american-rag-mens-hooded-denim-jacket-created-for-macys?ID=4689346&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D111",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/8667597_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Members Only Men's Classic Zip-Front Jacket",
+        "prices":[  
+            59.4,
+            99.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/members-only-mens-classic-zip-front-jacket?ID=5306231&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D107",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9181301_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Basket-Weave Bomber Jacket, Created for Macy's",
+        "prices":[  
+            47.7,
+            79.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-basket-weave-bomber-jacket-created-for-macys?ID=4735068&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D105",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8614125_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Fire Knit Moto Jacket, Created for Macy's",
+        "prices":[  
+            47.7,
+            79.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-fire-knit-moto-jacket-created-for-macys?ID=2913176&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D104",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/3817287_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Jaywalker Men's Ruched Nylon Olive Bomber Jacket, Created for Macy's",
+        "prices":[  
+            34.8,
+            58.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/jaywalker-mens-ruched-nylon-olive-bomber-jacket-created-for-macys?ID=2865036&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D103",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/3737382_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Washed Moto Jacket, Created for Macy's",
+        "prices":[  
+            77.7,
+            129.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-washed-moto-jacket-created-for-macys?ID=6622723&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D101",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10312367_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Jones Two-Tone Faux-Leather Jacket, Created for Macy's",
+        "prices":[  
+            77.7,
+            129.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-jones-two-tone-faux-leather-jacket-created-for-macys?ID=2375610&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D96",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8803355_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"I.N.C. Men's Faux Leather Hooded Bomber Jacket, Created for Macy's",
+        "prices":[  
+            77.7,
+            129.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/i.n.c.-mens-faux-leather-hooded-bomber-jacket-created-for-macys?ID=4746804&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D94",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/8732472_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"American Rag Men's Layered-Look Trucker Jacket, Created for Macy's",
+        "prices":[  
+            36.0,
+            60.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/american-rag-mens-layered-look-trucker-jacket-created-for-macys?ID=5532079&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D89",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9332042_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Reason Men's Street Veteran Varsity Jacket",
+        "prices":[  
+            96.0,
+            160.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/reason-mens-street-veteran-varsity-jacket?ID=6666784&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D72",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9929371_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Superdry Men's Wave Quilted Hooded Jacket",
+        "prices":[  
+            59.7,
+            99.5
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/superdry-mens-wave-quilted-hooded-jacket?ID=6914855&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D68",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10358123_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"American Rag Men's Bomber Jacket, Created for Macy's",
+        "prices":[  
+            36.0,
+            60.0
+        ],
+        "discount":0.4,
+        "url":"https://www.macys.com/shop/product/american-rag-mens-bomber-jacket-created-for-macys?ID=3179182&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D1%26spc%3D1158%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D63",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/8061216_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Mens Sherpa-Lined Shirt Jacket",
+        "prices":[  
+            59.99,
+            89.5
+        ],
+        "discount":0.33,
+        "url":"https://www.macys.com/shop/product/levis-mens-sherpa-lined-shirt-jacket?ID=6872698&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D62",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10511326_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Light Weight Chambray Hoodie Jacket",
+        "prices":[  
+            59.99,
+            89.5
+        ],
+        "discount":0.33,
+        "url":"https://www.macys.com/shop/product/levis-mens-light-weight-chambray-hoodie-jacket?ID=6153463&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D112",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9518456_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's All-Over Sherpa Bomber Jacket",
+        "prices":[  
+            59.99,
+            89.5
+        ],
+        "discount":0.33,
+        "url":"https://www.macys.com/shop/product/levis-mens-all-over-sherpa-bomber-jacket?ID=6872700&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D102",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/10512048_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Quilted Puffer Vest",
+        "prices":[  
+            59.99,
+            89.5
+        ],
+        "discount":0.33,
+        "url":"https://www.macys.com/shop/product/levis-mens-quilted-puffer-vest?ID=6872695&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D84",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10511303_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's Men's Diamond Quilted Depot Jacket",
+        "prices":[  
+            59.99,
+            89.5
+        ],
+        "discount":0.33,
+        "url":"https://www.macys.com/shop/product/levis-mens-diamond-quilted-depot-jacket?ID=6791542&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D20",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10014477_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Lightweight Faux Leather Shirt Jacket",
+        "prices":[  
+            59.99,
+            89.5
+        ],
+        "discount":0.33,
+        "url":"https://www.macys.com/shop/product/levis-mens-lightweight-faux-leather-shirt-jacket?ID=5798857&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D115",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9309694_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Nylon Windbreaker",
+        "prices":[  
+            59.99,
+            89.5
+        ],
+        "discount":0.33,
+        "url":"https://www.macys.com/shop/product/levis-mens-nylon-windbreaker?ID=5798853&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D107",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9309700_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Plaid Shirt Jacket",
+        "prices":[  
+            59.99,
+            89.5
+        ],
+        "discount":0.33,
+        "url":"https://www.macys.com/shop/product/levis-mens-plaid-shirt-jacket?ID=6791540&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D14",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10014447_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Denim Pullover Hoodie",
+        "prices":[  
+            59.99,
+            89.5
+        ],
+        "discount":0.33,
+        "url":"https://www.macys.com/shop/product/levis-mens-denim-pullover-hoodie?ID=6198880&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D117",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9557450_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Men's Camo Shirt-Jacket",
+        "prices":[  
+            59.99,
+            89.5
+        ],
+        "discount":0.33,
+        "url":"https://www.macys.com/shop/product/levis-mens-camo-shirt-jacket?ID=6791541&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D29",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/10014451_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Switchback Cycling Full-Zip Shell Jacket",
+        "prices":[  
+            51.5,
+            75.0
+        ],
+        "discount":0.31,
+        "url":"https://www.macys.com/shop/product/ems-mens-switchback-cycling-full-zip-shell-jacket?ID=6114295&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D46",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9474783_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Prima Packable Full-Zip Vest",
+        "prices":[  
+            82.3,
+            119.0
+        ],
+        "discount":0.31,
+        "url":"https://www.macys.com/shop/product/ems-mens-prima-packable-full-zip-vest?ID=6114166&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D105",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9474542_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Prima Packable Full-Zip Insulator Jacket",
+        "prices":[  
+            103.3,
+            149.0
+        ],
+        "discount":0.31,
+        "url":"https://www.macys.com/shop/product/ems-mens-prima-packable-full-zip-insulator-jacket?ID=6114162&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D104",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9474532_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"EMS\u00ae Men's Thunderhead Jacket",
+        "prices":[  
+            68.3,
+            99.0
+        ],
+        "discount":0.31,
+        "url":"https://www.macys.com/shop/product/ems-mens-thunderhead-jacket?ID=6153635&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D10",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9574619_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"A|X Armani Exchange Men's Camo Bomber Jacket",
+        "prices":[  
+            122.5,
+            175.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/ax-armani-exchange-mens-camo-bomber-jacket?ID=6641453&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D21",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10066595_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Puma Men's Colorblocked Woven Jacket",
+        "prices":[  
+            52.5,
+            75.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/puma-mens-colorblocked-woven-jacket?ID=6630149&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D69",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9968381_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Men's Sport ID Colorblocked Hooded Jacket",
+        "prices":[  
+            59.5,
+            85.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/adidas-mens-sport-id-colorblocked-hooded-jacket?ID=5779668&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D24",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9846087_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Tall Steens Mountain Vest",
+        "prices":[  
+            35.0,
+            50.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-tall-steens-mountain-vest?ID=7213905&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D104",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/3876950_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Loma Vista Insulated Jacket",
+        "prices":[  
+            105.0,
+            150.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-loma-vista-insulated-jacket?ID=4478480&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D44",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/8880472_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"A|X Armani Exchange Men's Logo-Print Jacket",
+        "prices":[  
+            87.5,
+            125.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/ax-armani-exchange-mens-logo-print-jacket?ID=6569199&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D39",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9846332_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Rugged Ridge Jacket",
+        "prices":[  
+            77.0,
+            110.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-rugged-ridge-jacket?ID=5860080&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D35",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9982861_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Puma Men's Colorblocked Retro Track Jacket",
+        "prices":[  
+            52.5,
+            75.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/puma-mens-colorblocked-retro-track-jacket?ID=6630146&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D109",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10028864_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Coyote Wall Full-Zip Soft-Shell Jacket",
+        "prices":[  
+            105.0,
+            150.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-coyote-wall-full-zip-soft-shell-jacket?ID=5859276&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D90",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9468531_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Rainie Falls Waterproof Hooded Jacket",
+        "prices":[  
+            105.0,
+            150.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-rainie-falls-waterproof-hooded-jacket?ID=5860049&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D78",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9540432_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Oyanta Trail Insulated Jacket",
+        "prices":[  
+            105.0,
+            150.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-oyanta-trail-insulated-jacket?ID=4488776&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D58",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/8880489_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Puma Men's MCS Colorblocked Track Jacket",
+        "prices":[  
+            49.0,
+            70.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/puma-mens-mcs-colorblocked-track-jacket?ID=6630144&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D35",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9966100_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Roan Mountain Colorblocked Rain Jacket",
+        "prices":[  
+            52.5,
+            75.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-roan-mountain-colorblocked-rain-jacket?ID=2691515&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D11",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9412345_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Men's ID Hooded Jacket",
+        "prices":[  
+            59.5,
+            85.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/adidas-mens-id-hooded-jacket?ID=4891821&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D8",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9200201_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Oyanta Trail Hooded Jacket",
+        "prices":[  
+            105.0,
+            150.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-oyanta-trail-hooded-jacket?ID=5860045&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D68",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9982133_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Big Oyanta Trail Insulated Jacket",
+        "prices":[  
+            112.0,
+            160.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-big-oyanta-trail-insulated-jacket?ID=5865908&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D56",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9983329_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Ascender Water-Resistant Softshell Jacket",
+        "prices":[  
+            80.5,
+            115.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-ascender-water-resistant-softshell-jacket?ID=1121021&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D47",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/2422777_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Steens Mountain Vest",
+        "prices":[  
+            31.5,
+            45.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-steens-mountain-vest?ID=2876173&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D33",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/3876950_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Tall Glennaker Lake\u2122 Colorblocked Rain Jacket",
+        "prices":[  
+            52.5,
+            75.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-tall-glennaker-lake-colorblocked-rain-jacket?ID=5865898&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D23",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9983349_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Utilizer Insulated Jacket",
+        "prices":[  
+            63.0,
+            90.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-utilizer-insulated-jacket?ID=5860948&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D18",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9520317_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Puma Men's Tricot Track Jacket",
+        "prices":[  
+            42.0,
+            60.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/puma-mens-tricot-track-jacket?ID=2845748&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D119",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/8866277_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Watertight II Jacket",
+        "prices":[  
+            63.0,
+            90.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-watertight-ii-jacket?ID=983848&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D93",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/8216600_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Columbia Men's Steens Mountain Fleece",
+        "prices":[  
+            42.0,
+            60.0,
+            60.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/columbia-mens-steens-mountain-fleece?ID=818453&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D88",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/3626401_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"True Religion Men's Dylan Bleach-Splatter Destroyed Denim Trucker Jacket",
+        "prices":[  
+            188.3,
+            269.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/true-religion-mens-dylan-bleach-splatter-destroyed-denim-trucker-jacket?ID=5797945&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D36",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9346745_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Colorblocked Rugby Vest",
+        "prices":[  
+            68.6,
+            98.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/nautica-mens-colorblocked-rugby-vest?ID=6666231&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D23",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10055664_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"True Religion Men's Danny Denim Jacket",
+        "prices":[  
+            139.3,
+            199.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/true-religion-mens-danny-denim-jacket?ID=6692275&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D111",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10348820_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Track Jacket",
+        "prices":[  
+            68.6,
+            98.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/nautica-mens-track-jacket?ID=6666220&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D90",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10056576_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"G-Star RAW Men's Rackam Anorak Jacket, Created for Macy's",
+        "prices":[  
+            105.0,
+            150.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/g-star-raw-mens-rackam-anorak-jacket-created-for-macys?ID=6930351&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D56",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10171803_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"G-Star RAW Men's Lanc Slim Fit Track Jacket, Created for Macy's",
+        "prices":[  
+            91.0,
+            130.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/g-star-raw-mens-lanc-slim-fit-track-jacket-created-for-macys?ID=6557983&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D39",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10127780_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nautica Men's Heavy Weight Colorblocked Jacket",
+        "prices":[  
+            117.6,
+            168.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/nautica-mens-heavy-weight-colorblocked-jacket?ID=6666215&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D36",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10056170_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lucky Brand Men's Classic-Fit Denim Trucker Jacket",
+        "prices":[  
+            62.65,
+            89.5
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/lucky-brand-mens-classic-fit-denim-trucker-jacket?ID=6510849&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D32",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9873296_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lucky Brand Men's Waxed M-65 Field Jacket",
+        "prices":[  
+            118.3,
+            169.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/lucky-brand-mens-waxed-m-65-field-jacket?ID=6685646&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D18",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9986341_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"G-Star RAW Men's Slim-Fit Black Denim Jacket, Created for Macy's",
+        "prices":[  
+            98.0,
+            140.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/g-star-raw-mens-slim-fit-black-denim-jacket-created-for-macys?ID=6857698&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D3%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D6",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10368400_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Lucky Brand Men's McKinney Denim Jacket",
+        "prices":[  
+            69.3,
+            99.0
+        ],
+        "discount":0.3,
+        "url":"https://www.macys.com/shop/product/lucky-brand-mens-mckinney-denim-jacket?ID=4862394&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D2%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D111",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8679325_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hurley Men's Thermal Hooded Jacket",
+        "prices":[  
+            74.25,
+            99.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/hurley-mens-thermal-hooded-jacket?ID=6291696&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D10%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D75",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/10125309_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Fox Men's Lad Logo Coaches Jacket",
+        "prices":[  
+            44.25,
+            59.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/fox-mens-lad-logo-coaches-jacket?ID=6919506&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D84",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10351817_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Element Men's Alder Hooded Full-Zip Windbreaker",
+        "prices":[  
+            44.96,
+            59.95
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/element-mens-alder-hooded-full-zip-windbreaker?ID=7693730&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D72",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/10051350_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"O'Neill Men's Traveller Reversible Shirt Jacket",
+        "prices":[  
+            67.13,
+            89.5
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/oneill-mens-traveller-reversible-shirt-jacket?ID=6267086&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D64",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9901531_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Quiksilver Men's Kamakora Reigns Hooded Jacket",
+        "prices":[  
+            56.25,
+            75.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/quiksilver-mens-kamakora-reigns-hooded-jacket?ID=6684940&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D42",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9951894_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Men's Originals Windbreaker",
+        "prices":[  
+            67.5,
+            90.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/adidas-mens-originals-windbreaker?ID=4954585&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D38",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9322841_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Ezekiel Men's Rafferty Full-Zip Hooded Jacket",
+        "prices":[  
+            48.0,
+            64.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/ezekiel-mens-rafferty-full-zip-hooded-jacket?ID=7286318&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D23",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/10079097_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Volcom Men's Brews Coach Jacket",
+        "prices":[  
+            41.25,
+            55.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/volcom-mens-brews-coach-jacket?ID=6805249&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D9%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D22",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10198285_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Puma Men's Archive Track Jacket",
+        "prices":[  
+            52.5,
+            70.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/puma-mens-archive-track-jacket?ID=5869400&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D116",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/9321204_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Quiksilver Men's Kofuji Coaches Jacket",
+        "prices":[  
+            75.0,
+            100.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/quiksilver-mens-kofuji-coaches-jacket?ID=6684971&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D92",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9926319_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Originals Men's Hu Holi Printed Terry Track Jacket",
+        "prices":[  
+            63.75,
+            85.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/adidas-originals-mens-hu-holi-printed-terry-track-jacket?ID=5028073&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D76",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9513645_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Men's ClimaLite\u00ae Response Running Jacket",
+        "prices":[  
+            45.0,
+            60.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/adidas-mens-climalite-response-running-jacket?ID=2953314&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D8%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D14",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8358765_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Men's Sport ID Track Jacket",
+        "prices":[  
+            48.75,
+            65.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/adidas-mens-sport-id-track-jacket?ID=6120595&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D114",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10341403_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"RVCA Men's Packaway Anorak II Jacket",
+        "prices":[  
+            48.75,
+            65.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/rvca-mens-packaway-anorak-ii-jacket?ID=6730990&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D94",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9969403_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Essentials Three-Stripe Hooded Windbreaker",
+        "prices":[  
+            48.75,
+            65.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/adidas-essentials-three-stripe-hooded-windbreaker?ID=5798837&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D80",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10436003_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hurley Men's Oakland Shirt Jacket",
+        "prices":[  
+            60.0,
+            80.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/hurley-mens-oakland-shirt-jacket?ID=6291686&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D72",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9960675_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Volcom Men's Warren Jacket",
+        "prices":[  
+            48.75,
+            65.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/volcom-mens-warren-jacket?ID=5017287&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D71",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/8785508_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Billabong Men's Wind Swell Colorblocked 1/4-Zip Anorak",
+        "prices":[  
+            44.96,
+            59.95
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/billabong-mens-wind-swell-colorblocked-1-4-zip-anorak?ID=6274526&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D69",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9901566_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Fox Men's Attacker Windbreaker",
+        "prices":[  
+            44.25,
+            59.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/fox-mens-attacker-windbreaker?ID=6757491&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D60",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9988758_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Under Armour Men's Sportstyle Track Jacket Created for Macy's",
+        "prices":[  
+            45.0,
+            60.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/under-armour-mens-sportstyle-track-jacket-created-for-macys?ID=5770585&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D7%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D50",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9965233_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hurley Men's Pistol River Full-Zip Hooded Jacket",
+        "prices":[  
+            52.5,
+            65.0,
+            70.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/hurley-mens-pistol-river-full-zip-hooded-jacket?ID=6298106&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D88",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/9932677_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Hurley Men's Protect 2.0 Full-Zip Hooded Jacket",
+        "prices":[  
+            45.0,
+            60.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/hurley-mens-protect-2.0-full-zip-hooded-jacket?ID=5692069&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D32",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/9673618_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"O'Neill Men's Traveler Windbreaker",
+        "prices":[  
+            37.13,
+            49.5
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/oneill-mens-traveler-windbreaker?ID=4855791&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D28",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8919535_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Volcom Men's Ermont Jacket",
+        "prices":[  
+            48.75,
+            65.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/volcom-mens-ermont-jacket?ID=4422183&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D6%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D21",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/8287404_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nike Men's Windrunner Colorblocked Jacket",
+        "prices":[  
+            75.0,
+            100.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/nike-mens-windrunner-colorblocked-jacket?ID=7132611&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D73",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/9348719_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Men's Sport ID Bomber Track Jacket",
+        "prices":[  
+            48.75,
+            65.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/adidas-mens-sport-id-bomber-track-jacket?ID=5745407&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D71",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9732365_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Men's Tricot Track Jacket",
+        "prices":[  
+            37.5,
+            50.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/adidas-mens-tricot-track-jacket?ID=6294113&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D57",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/10128156_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Men's Three-Stripe Windbreaker",
+        "prices":[  
+            48.75,
+            65.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/adidas-mens-three-stripe-windbreaker?ID=4456119&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D46",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/7/optimized/8712937_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nike Men's Dry Academy Soccer Track Jacket",
+        "prices":[  
+            41.25,
+            55.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/nike-mens-dry-academy-soccer-track-jacket?ID=4663357&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D45",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/8963648_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nike Men's Sportswear Windrunner Jacket",
+        "prices":[  
+            82.5,
+            110.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/nike-mens-sportswear-windrunner-jacket?ID=5305568&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D7",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9515362_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Originals Men's adicolor Beckenbauer Track Jacket",
+        "prices":[  
+            60.0,
+            80.0,
+            80.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/adidas-originals-mens-adicolor-beckenbauer-track-jacket?ID=4952947&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D99",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/9212280_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"adidas Men's Essential Tricot Track Jacket",
+        "prices":[  
+            37.5,
+            50.0
+        ],
+        "discount":0.25,
+        "url":"https://www.macys.com/shop/product/adidas-mens-essential-tricot-track-jacket?ID=3749163&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D58",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/0/optimized/8563610_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's Men's Corduroy Trucker Jacket",
+        "prices":[  
+            69.99,
+            89.5
+        ],
+        "discount":0.22,
+        "url":"https://www.macys.com/shop/product/levis-mens-corduroy-trucker-jacket?ID=7075500&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D92",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10251872_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's Men's Denim Trucker Jacket",
+        "prices":[  
+            69.99,
+            89.5
+        ],
+        "discount":0.22,
+        "url":"https://www.macys.com/shop/product/levis-mens-denim-trucker-jacket?ID=2327840&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D61",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/1/optimized/9770351_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Levi's\u00ae Sherpa Denim Trucker Jacket",
+        "prices":[  
+            79.99,
+            98.0
+        ],
+        "discount":0.18,
+        "url":"https://www.macys.com/shop/product/levis-sherpa-denim-trucker-jacket?ID=2386760&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D4%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D56",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8515035_fpx.tif?$thumb$"
+    },
+    {  
+        "title":"Nike Men's Dry Woven Training Jacket",
+        "prices":[  
+            54.99,
+            65.0
+        ],
+        "discount":0.15,
+        "url":"https://www.macys.com/shop/product/nike-mens-dry-woven-training-jacket?ID=5759645&CategoryID=3763#fn=SPECIAL_OFFERS%3DSales%20&amp;%20Discounts%26SIZE%3D%26sp%3D5%26spc%3D1159%26ruleId%3D78%7CBOOST%20SAVED%20SET%7CBOOST%20ATTRIBUTE%26searchPass%3DmatchNone%26slotId%3D82",
+        "image_url":"https://slimages.macysassets.com/is/image/MCY/products/6/optimized/9800076_fpx.tif?$thumb$"
+    }
+]
