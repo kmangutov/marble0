@@ -1,29 +1,41 @@
-console.log(JSON.stringify(items))
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-Vue.component('sale-item', {
-  props: ['title', 'prices', 'discount', 'url', 'image_url'],
-  data: function () {
-    return {
-      count: 0
-    }
-  },
-  computed: {
-    newPrice: function() {
-      return this.prices[0]
-    },
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-    oldPrice: function() {
-      return this.prices[1]
-    }
-  },
-  methods: {
-    click: function(event) {
-      // Allows us to avoid default <a href...> styling
-      window.location.href = this.url
-    }
-  },
-  template: '<div class="card" v-on:click="click"><span class="font2">{{title}}</span><br><img :src="image_url"></img><br><div class="right"><span class="font3">{{oldPrice}}</span><span class="font1">{{newPrice}}</span></div></div></a>'
-})
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-new Vue({el: '#app',
-data: {items: items}})
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+console.log(JSON.stringify(items));
+
+var SaleList = function (_React$Component) {
+  _inherits(SaleList, _React$Component);
+
+  function SaleList(props, context) {
+    _classCallCheck(this, SaleList);
+
+    return _possibleConstructorReturn(this, (SaleList.__proto__ || Object.getPrototypeOf(SaleList)).call(this, props, context));
+    //    this.toggleChecked = this.toggleChecked.bind(this);
+  }
+
+  _createClass(SaleList, [{
+    key: 'render',
+    value: function render() {
+      var rows = [];
+      for (var i = 0; i < items.length; i++) {
+        rows.push(React.createElement(
+          'h1',
+          null,
+          'Hello'
+        ));
+      }
+      return rows;
+    }
+  }]);
+
+  return SaleList;
+}(React.Component);
+
+;
+
+ReactDOM.render(React.createElement(SaleList, { items: items }), document.getElementById('app'));
