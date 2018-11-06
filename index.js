@@ -8,8 +8,40 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 console.log(JSON.stringify(items));
 
-var SaleList = function (_React$Component) {
-  _inherits(SaleList, _React$Component);
+var SaleItem = function (_React$Component) {
+  _inherits(SaleItem, _React$Component);
+
+  function SaleItem(props, context) {
+    _classCallCheck(this, SaleItem);
+
+    var _this = _possibleConstructorReturn(this, (SaleItem.__proto__ || Object.getPrototypeOf(SaleItem)).call(this, props, context));
+
+    console.log(JSON.stringify(props));
+    return _this;
+  }
+
+  _createClass(SaleItem, [{
+    key: 'render',
+    value: function render() {
+      return React.createElement(
+        'div',
+        { 'class': 'card' },
+        React.createElement(
+          'span',
+          { 'class': 'font2' },
+          this.props.title
+        ),
+        React.createElement('br', null),
+        React.createElement('img', { src: this.props.url, crossorigin: true })
+      );
+    }
+  }]);
+
+  return SaleItem;
+}(React.Component);
+
+var SaleList = function (_React$Component2) {
+  _inherits(SaleList, _React$Component2);
 
   function SaleList(props, context) {
     _classCallCheck(this, SaleList);
@@ -28,6 +60,7 @@ var SaleList = function (_React$Component) {
           null,
           'Hello'
         ));
+        rows.push(React.createElement(SaleItem, items[i]));
       }
       return rows;
     }
