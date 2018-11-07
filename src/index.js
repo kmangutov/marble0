@@ -3,7 +3,12 @@ console.log(JSON.stringify(items))
 class SaleItem extends React.Component {
   constructor(props, context) {
     super(props, context)
-    console.log(JSON.stringify(props))
+    this.onClick = this.onClick.bind(this);
+  }
+
+  onClick() {
+    //  Hack to to avoid default visited <a href...> styling
+    window.location.href = this.props.url
   }
 
   render() {
@@ -12,7 +17,7 @@ class SaleItem extends React.Component {
     }
 
     return (
-      <div class='card'>
+      <div class='card' onClick={this.onClick}>
         <span class='font2'>{this.props.title}</span>
         <br/>
         <img src={this.props.image_url} crossOrigin=''/>
@@ -28,7 +33,6 @@ class SaleItem extends React.Component {
 class SaleList extends React.Component {
   constructor(props, context) {
     super(props, context)
-    //    this.toggleChecked = this.toggleChecked.bind(this);
   }
 
   render() {

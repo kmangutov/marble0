@@ -16,11 +16,17 @@ var SaleItem = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (SaleItem.__proto__ || Object.getPrototypeOf(SaleItem)).call(this, props, context));
 
-    console.log(JSON.stringify(props));
+    _this.onClick = _this.onClick.bind(_this);
     return _this;
   }
 
   _createClass(SaleItem, [{
+    key: 'onClick',
+    value: function onClick() {
+      //  Hack to to avoid default visited <a href...> styling
+      window.location.href = this.props.url;
+    }
+  }, {
     key: 'render',
     value: function render() {
       if (this.props['prices'] === undefined) {
@@ -29,7 +35,7 @@ var SaleItem = function (_React$Component) {
 
       return React.createElement(
         'div',
-        { 'class': 'card' },
+        { 'class': 'card', onClick: this.onClick },
         React.createElement(
           'span',
           { 'class': 'font2' },
@@ -66,7 +72,6 @@ var SaleList = function (_React$Component2) {
     _classCallCheck(this, SaleList);
 
     return _possibleConstructorReturn(this, (SaleList.__proto__ || Object.getPrototypeOf(SaleList)).call(this, props, context));
-    //    this.toggleChecked = this.toggleChecked.bind(this);
   }
 
   _createClass(SaleList, [{
