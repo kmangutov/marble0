@@ -7,7 +7,21 @@ class SaleItem extends React.Component {
   }
 
   render() {
-    return (<div class='card'><span class='font2'>{this.props.title}</span><br/><img src={this.props.url} crossorigin/></div>)
+    if (this.props['prices'] === undefined) {
+      return (<div></div>)
+    }
+
+    return (
+      <div class='card'>
+        <span class='font2'>{this.props.title}</span>
+        <br/>
+        <img src={this.props.image_url} crossOrigin=''/>
+        <br/>
+        <div class='right'>
+          <span class='font3'>{this.props.prices[0]}</span>
+          <span class='font1'>{this.props.prices[1]}</span>
+        </div>
+      </div>)
   }
 }
 
@@ -20,7 +34,6 @@ class SaleList extends React.Component {
   render() {
     var rows = []
     for (var i = 0; i < items.length; i++) {
-      rows.push(<h1>Hello</h1>);
       rows.push(<SaleItem {...items[i]} />)
     }
     return (rows);

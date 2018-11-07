@@ -23,6 +23,10 @@ var SaleItem = function (_React$Component) {
   _createClass(SaleItem, [{
     key: 'render',
     value: function render() {
+      if (this.props['prices'] === undefined) {
+        return React.createElement('div', null);
+      }
+
       return React.createElement(
         'div',
         { 'class': 'card' },
@@ -32,7 +36,22 @@ var SaleItem = function (_React$Component) {
           this.props.title
         ),
         React.createElement('br', null),
-        React.createElement('img', { src: this.props.url, crossorigin: true })
+        React.createElement('img', { src: this.props.image_url, crossOrigin: '' }),
+        React.createElement('br', null),
+        React.createElement(
+          'div',
+          { 'class': 'right' },
+          React.createElement(
+            'span',
+            { 'class': 'font3' },
+            this.props.prices[0]
+          ),
+          React.createElement(
+            'span',
+            { 'class': 'font1' },
+            this.props.prices[1]
+          )
+        )
       );
     }
   }]);
@@ -55,11 +74,6 @@ var SaleList = function (_React$Component2) {
     value: function render() {
       var rows = [];
       for (var i = 0; i < items.length; i++) {
-        rows.push(React.createElement(
-          'h1',
-          null,
-          'Hello'
-        ));
         rows.push(React.createElement(SaleItem, items[i]));
       }
       return rows;
