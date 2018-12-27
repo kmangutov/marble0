@@ -37,11 +37,15 @@ var SaleItem = function (_React$Component) {
         'div',
         { 'class': 'card', onClick: this.onClick },
         React.createElement('br', null),
-        React.createElement('img', { src: this.props.image_url, crossOrigin: '' }),
+        React.createElement(
+          'center',
+          null,
+          React.createElement('img', { src: this.props.image_url, crossOrigin: '' })
+        ),
         React.createElement('br', null),
         React.createElement(
           'div',
-          { 'class': 'center' },
+          null,
           React.createElement(
             'span',
             { 'class': 'font2' },
