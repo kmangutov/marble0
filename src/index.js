@@ -18,13 +18,13 @@ class SaleItem extends React.Component {
 
     return (
       <div class='card' onClick={this.onClick}>
-        <br/>
         <center><img src={this.props.image_url} crossOrigin=''/></center>
         <br/>
         <div>
-          <span class='font2'>{this.props.title}</span><br />
-          <span class='font3'>${this.props.prices[0]}</span><br />
-          <span class='font1'>${this.props.prices[1]}</span>
+          <span class='font2'>{this.props.title}</span><br /><br />
+          <span class='font3'>Was: ${this.props.prices[1]}</span><br />
+          <span class='font1'>Now: ${this.props.prices[0]}</span>
+          <span class='font-highlight'>50% off</span>
         </div>
       </div>)
   }

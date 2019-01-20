@@ -11,6 +11,20 @@ h1 {
 	text-transform: uppercase;
 }
 
+h2 {
+	font-family: 'Lato';
+	font-size:  16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;	
+}
+
+span {
+	font-family: 'Lato', Sans-Serif;
+	font-size: 16px;
+	font-weight: 200;
+	padding-right: 8px;
+}
+
 .font1 {
 	font-family: 'Lato', Sans-Serif;
 	font-size: 16px;
@@ -19,17 +33,27 @@ h1 {
 
 .font2 {
 	/*font-family: 'Open Sans', Sans-Serif;*/
-	font-family: 'PT Serif', Serif;
-	
+	/*font-family: 'PT Serif', Serif;*/
+	font-family: 'Lato', Sans-Serif;
+	font-weight: 300;
+
 	font-size: 16px;
-	padding-bottom: 2px;
+	padding-bottom: 6px;
 }
 
 .font3 {
 	font-family: 'Lato', Sans-Serif;
 	font-size: 16px;
-	text-decoration: line-through;
+	/*text-decoration: line-through;*/
 	font-weight: 300;
+}
+
+.font-highlight {
+	font-family: 'Lato', Sans-Serif;
+	font-size: 16px;
+	/*text-decoration: line-through;*/
+	font-weight: 200;
+	color: #4e599d;
 }
 
 .container {
@@ -42,18 +66,21 @@ h1 {
 
 
 .container>* {
-	flex: 1 1 160px;
+	flex: 1 1 260px;
 }
 
 .card {
-	padding: 25px;
-	margin: 10px 5px;
-	border: 1px solid #F5F5F5;
+	margin: 10px;
+	margin-bottom: 25px;
+}
+	/*	border: 1px solid #FFFFFF;
+	margin: 10px;
+	width: 300px !important;
 }
 
 .card:hover {
 	border: 1px solid #D5D5D5;
-}
+}*/
 
 .center {
 	text-align: center;
@@ -88,6 +115,8 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 header h3 {
@@ -102,7 +131,46 @@ header h3 {
 	text-transform: uppercase;
 }
 
-.header-right {
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
 	display: inline;
-	font-size: 22px;
+	font-family: 'Lato', Sans-Serif;
+	font-size: 15px;
+	font-weight: 200;
+	margin: 0px;
+	text-transform: uppercase;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+li:hover {
+	color: gray;
+}
+
+.photo {
+	max-width: 100%;
+	height: auto;
+}
+
+/*.main {
+	background-color: #eee;
+}*/
+
+.filters {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	max-width: 700;
+}
+
+.font-selected {
+	text-decoration: underline;
+	font-style: italic;
 }

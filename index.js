@@ -36,7 +36,6 @@ var SaleItem = function (_React$Component) {
       return React.createElement(
         'div',
         { 'class': 'card', onClick: this.onClick },
-        React.createElement('br', null),
         React.createElement(
           'center',
           null,
@@ -52,18 +51,24 @@ var SaleItem = function (_React$Component) {
             this.props.title
           ),
           React.createElement('br', null),
+          React.createElement('br', null),
           React.createElement(
             'span',
             { 'class': 'font3' },
-            '$',
-            this.props.prices[0]
+            'Was: $',
+            this.props.prices[1]
           ),
           React.createElement('br', null),
           React.createElement(
             'span',
             { 'class': 'font1' },
-            '$',
-            this.props.prices[1]
+            'Now: $',
+            this.props.prices[0]
+          ),
+          React.createElement(
+            'span',
+            { 'class': 'font-highlight' },
+            '50% off'
           )
         )
       );
